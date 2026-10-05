@@ -1,0 +1,2059 @@
+[
+  {
+    "customerName": "mukh4w",
+    "message": "я вас в суд поддам если деньги не вернется",
+    "createdAt": "2026-10-04T15:38:33.963Z",
+    "chatId": 6468213241,
+    "status": "replied",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.8,
+      "urgencyScore": 3,
+      "escalationProbability": 0.92,
+      "provider": "jev",
+      "latencyMs": 427
+    },
+    "autoReply": null,
+    "id": "TKT-1121"
+  },
+  {
+    "customerName": "mukh4w",
+    "message": "сколько стоит такси до алматы",
+    "createdAt": "2026-10-04T15:37:40.309Z",
+    "chatId": 6468213241,
+    "status": "replied",
+    "triageCache": {
+      "topic": "sales",
+      "topicConfidence": 0.98,
+      "urgencyScore": 0,
+      "escalationProbability": 0.03,
+      "provider": "jev",
+      "latencyMs": 474
+    },
+    "autoReply": null,
+    "id": "TKT-1120"
+  },
+  {
+    "customerName": "Client 739",
+    "message": "Спасибо, вы мне очень помогли! Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.730Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "praise",
+      "topicConfidence": 0.79,
+      "urgencyScore": 1.89,
+      "escalationProbability": 0.4,
+      "provider": "jev",
+      "latencyMs": 787
+    },
+    "autoReply": null,
+    "id": "TKT-1020"
+  },
+  {
+    "customerName": "Client 719",
+    "message": "Здравствуйте, до скольки работает ваша поддержка? Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.649Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "other",
+      "topicConfidence": 0.98,
+      "urgencyScore": 0.14,
+      "escalationProbability": 0.18,
+      "provider": "jev",
+      "latencyMs": 704
+    },
+    "autoReply": null,
+    "id": "TKT-1021"
+  },
+  {
+    "customerName": "Client 661",
+    "message": "Сайт висит уже полчаса, не могу зайти. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.733Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2.01,
+      "escalationProbability": 0.52,
+      "provider": "jev",
+      "latencyMs": 787
+    },
+    "autoReply": null,
+    "id": "TKT-1022"
+  },
+  {
+    "customerName": "Client 813",
+    "message": "Ужасный сервис, буду жаловаться. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.672Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 1,
+      "urgencyScore": 2.06,
+      "escalationProbability": 0.8,
+      "provider": "jev",
+      "latencyMs": 725
+    },
+    "autoReply": null,
+    "id": "TKT-1023"
+  },
+  {
+    "customerName": "Client 285",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней.",
+    "createdAt": "2026-10-04T15:32:59.659Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.91,
+      "escalationProbability": 0.37,
+      "provider": "jev",
+      "latencyMs": 710
+    },
+    "autoReply": null,
+    "id": "TKT-1024"
+  },
+  {
+    "customerName": "Client 498",
+    "message": "Сайт висит уже полчаса, не могу зайти. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.649Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2.01,
+      "escalationProbability": 0.53,
+      "provider": "jev",
+      "latencyMs": 699
+    },
+    "autoReply": null,
+    "id": "TKT-1025"
+  },
+  {
+    "customerName": "Client 47",
+    "message": "Коробка была помята, а товар внутри разбит. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.677Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 0.42,
+      "urgencyScore": 1.93,
+      "escalationProbability": 0.58,
+      "provider": "jev",
+      "latencyMs": 726
+    },
+    "autoReply": null,
+    "id": "TKT-1026"
+  },
+  {
+    "customerName": "Client 432",
+    "message": "Спасибо, вы мне очень помогли! Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.792Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "praise",
+      "topicConfidence": 0.45,
+      "urgencyScore": 1.51,
+      "escalationProbability": 0.1,
+      "provider": "jev",
+      "latencyMs": 840
+    },
+    "autoReply": null,
+    "id": "TKT-1027"
+  },
+  {
+    "customerName": "Client 843",
+    "message": "Кнопка 'оформить заказ' не нажимается.",
+    "createdAt": "2026-10-04T15:32:59.792Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.07,
+      "provider": "jev",
+      "latencyMs": 839
+    },
+    "autoReply": null,
+    "id": "TKT-1028"
+  },
+  {
+    "customerName": "Client 131",
+    "message": "Мой аккаунт заблокирован, за что?",
+    "createdAt": "2026-10-04T15:32:59.748Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.28,
+      "provider": "jev",
+      "latencyMs": 795
+    },
+    "autoReply": null,
+    "id": "TKT-1029"
+  },
+  {
+    "customerName": "Client 10",
+    "message": "Где мой возврат средств? Жду уже неделю. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.664Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.87,
+      "escalationProbability": 0.36,
+      "provider": "jev",
+      "latencyMs": 710
+    },
+    "autoReply": null,
+    "id": "TKT-1030"
+  },
+  {
+    "customerName": "Client 485",
+    "message": "Я забыл пароль, а письмо для сброса не приходит.",
+    "createdAt": "2026-10-04T15:32:59.662Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 1,
+      "urgencyScore": 1.95,
+      "escalationProbability": 0.15,
+      "provider": "jev",
+      "latencyMs": 707
+    },
+    "autoReply": null,
+    "id": "TKT-1031"
+  },
+  {
+    "customerName": "Client 272",
+    "message": "Где мой возврат средств? Жду уже неделю. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.663Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.54,
+      "provider": "jev",
+      "latencyMs": 708
+    },
+    "autoReply": null,
+    "id": "TKT-1032"
+  },
+  {
+    "customerName": "Client 62",
+    "message": "Курьер должен был приехать вчера, но его нет.",
+    "createdAt": "2026-10-04T15:32:59.663Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.84,
+      "escalationProbability": 0.19,
+      "provider": "jev",
+      "latencyMs": 706
+    },
+    "autoReply": null,
+    "id": "TKT-1033"
+  },
+  {
+    "customerName": "Client 965",
+    "message": "Картинки товаров не прогружаются в каталоге. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.730Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.33,
+      "provider": "jev",
+      "latencyMs": 771
+    },
+    "autoReply": null,
+    "id": "TKT-1034"
+  },
+  {
+    "customerName": "Client 215",
+    "message": "СМС с кодом подтверждения не приходит. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.694Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 0.5,
+      "urgencyScore": 2,
+      "escalationProbability": 0.16,
+      "provider": "jev",
+      "latencyMs": 734
+    },
+    "autoReply": null,
+    "id": "TKT-1035"
+  },
+  {
+    "customerName": "Client 249",
+    "message": "Картинки товаров не прогружаются в каталоге. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.687Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.41,
+      "escalationProbability": 0.19,
+      "provider": "jev",
+      "latencyMs": 726
+    },
+    "autoReply": null,
+    "id": "TKT-1036"
+  },
+  {
+    "customerName": "Client 172",
+    "message": "Как стать вашим партнером? Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.660Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "sales",
+      "topicConfidence": 0.61,
+      "urgencyScore": 1.47,
+      "escalationProbability": 0.19,
+      "provider": "jev",
+      "latencyMs": 699
+    },
+    "autoReply": null,
+    "id": "TKT-1037"
+  },
+  {
+    "customerName": "Client 393",
+    "message": "API выдает 404 на эндпоинте создания заказа.",
+    "createdAt": "2026-10-04T15:32:59.661Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.98,
+      "escalationProbability": 0.18,
+      "provider": "jev",
+      "latencyMs": 699
+    },
+    "autoReply": null,
+    "id": "TKT-1038"
+  },
+  {
+    "customerName": "Client 282",
+    "message": "Приложение вылетает при попытке открыть корзину. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.765Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.17,
+      "provider": "jev",
+      "latencyMs": 802
+    },
+    "autoReply": null,
+    "id": "TKT-1039"
+  },
+  {
+    "customerName": "Client 183",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.650Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.89,
+      "escalationProbability": 0.52,
+      "provider": "jev",
+      "latencyMs": 687
+    },
+    "autoReply": null,
+    "id": "TKT-1040"
+  },
+  {
+    "customerName": "Client 310",
+    "message": "Картинки товаров не прогружаются в каталоге. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.918Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.46,
+      "escalationProbability": 0.19,
+      "provider": "jev",
+      "latencyMs": 954
+    },
+    "autoReply": null,
+    "id": "TKT-1041"
+  },
+  {
+    "customerName": "Client 527",
+    "message": "Я забыл пароль, а письмо для сброса не приходит. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:33:00.023Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 1,
+      "urgencyScore": 1.85,
+      "escalationProbability": 0.21,
+      "provider": "jev",
+      "latencyMs": 1058
+    },
+    "autoReply": null,
+    "id": "TKT-1042"
+  },
+  {
+    "customerName": "Client 559",
+    "message": "Кнопка 'оформить заказ' не нажимается. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.901Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.94,
+      "escalationProbability": 0.16,
+      "provider": "jev",
+      "latencyMs": 935
+    },
+    "autoReply": null,
+    "id": "TKT-1043"
+  },
+  {
+    "customerName": "Client 595",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.903Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.92,
+      "escalationProbability": 0.49,
+      "provider": "jev",
+      "latencyMs": 936
+    },
+    "autoReply": null,
+    "id": "TKT-1044"
+  },
+  {
+    "customerName": "Client 649",
+    "message": "Оплата не проходит, выдает ошибку 500. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.885Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.96,
+      "urgencyScore": 2,
+      "escalationProbability": 0.47,
+      "provider": "jev",
+      "latencyMs": 917
+    },
+    "autoReply": null,
+    "id": "TKT-1045"
+  },
+  {
+    "customerName": "Client 769",
+    "message": "Привет!",
+    "createdAt": "2026-10-04T15:32:59.729Z",
+    "chatId": 123456789,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 1,
+      "urgencyScore": 0.01,
+      "escalationProbability": 0.01,
+      "provider": "jev",
+      "latencyMs": 760
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1046"
+  },
+  {
+    "customerName": "Client 712",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.903Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.44,
+      "provider": "jev",
+      "latencyMs": 931
+    },
+    "autoReply": null,
+    "id": "TKT-1047"
+  },
+  {
+    "customerName": "Client 605",
+    "message": "Спасибо, вы мне очень помогли! Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.884Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "praise",
+      "topicConfidence": 0.77,
+      "urgencyScore": 1.88,
+      "escalationProbability": 0.4,
+      "provider": "jev",
+      "latencyMs": 912
+    },
+    "autoReply": null,
+    "id": "TKT-1048"
+  },
+  {
+    "customerName": "Client 447",
+    "message": "Привет!",
+    "createdAt": "2026-10-04T15:32:59.938Z",
+    "chatId": 123456789,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 1,
+      "urgencyScore": 0.01,
+      "escalationProbability": 0.01,
+      "provider": "jev",
+      "latencyMs": 965
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1049"
+  },
+  {
+    "customerName": "Client 201",
+    "message": "Как стать вашим партнером? Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.792Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "sales",
+      "topicConfidence": 0.56,
+      "urgencyScore": 0.03,
+      "escalationProbability": 0.11,
+      "provider": "jev",
+      "latencyMs": 818
+    },
+    "autoReply": null,
+    "id": "TKT-1050"
+  },
+  {
+    "customerName": "Client 543",
+    "message": "Привезли чужой заказ вместо моего. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.984Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 0.72,
+      "urgencyScore": 1.64,
+      "escalationProbability": 0.55,
+      "provider": "jev",
+      "latencyMs": 1009
+    },
+    "autoReply": null,
+    "id": "TKT-1051"
+  },
+  {
+    "customerName": "Client 648",
+    "message": "Где мой возврат средств? Жду уже неделю. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:33:00.004Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.6,
+      "escalationProbability": 0.26,
+      "provider": "jev",
+      "latencyMs": 1028
+    },
+    "autoReply": null,
+    "id": "TKT-1052"
+  },
+  {
+    "customerName": "Client 209",
+    "message": "Оплата не проходит, выдает ошибку 500. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.910Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.96,
+      "urgencyScore": 1.98,
+      "escalationProbability": 0.34,
+      "provider": "jev",
+      "latencyMs": 934
+    },
+    "autoReply": null,
+    "id": "TKT-1053"
+  },
+  {
+    "customerName": "Client 27",
+    "message": "Кнопка 'оформить заказ' не нажимается. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.985Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.18,
+      "provider": "jev",
+      "latencyMs": 1008
+    },
+    "autoReply": null,
+    "id": "TKT-1054"
+  },
+  {
+    "customerName": "Client 344",
+    "message": "Как стать вашим партнером? Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.935Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "sales",
+      "topicConfidence": 0.65,
+      "urgencyScore": 1.44,
+      "escalationProbability": 0.18,
+      "provider": "jev",
+      "latencyMs": 957
+    },
+    "autoReply": null,
+    "id": "TKT-1055"
+  },
+  {
+    "customerName": "Client 746",
+    "message": "Приложение вылетает при попытке открыть корзину. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:33:00.005Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.96,
+      "escalationProbability": 0.15,
+      "provider": "jev",
+      "latencyMs": 1026
+    },
+    "autoReply": null,
+    "id": "TKT-1056"
+  },
+  {
+    "customerName": "Client 619",
+    "message": "Ужасный сервис, буду жаловаться. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.934Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 1,
+      "urgencyScore": 2.06,
+      "escalationProbability": 0.78,
+      "provider": "jev",
+      "latencyMs": 955
+    },
+    "autoReply": null,
+    "id": "TKT-1057"
+  },
+  {
+    "customerName": "Client 114",
+    "message": "Не могу привязать новый номер телефона. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:33:00.008Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 0.99,
+      "urgencyScore": 1.22,
+      "escalationProbability": 0.16,
+      "provider": "jev",
+      "latencyMs": 1028
+    },
+    "autoReply": null,
+    "id": "TKT-1058"
+  },
+  {
+    "customerName": "Client 380",
+    "message": "Почему подписка продлилась без моего ведома?",
+    "createdAt": "2026-10-04T15:32:59.728Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.86,
+      "urgencyScore": 1.43,
+      "escalationProbability": 0.13,
+      "provider": "jev",
+      "latencyMs": 747
+    },
+    "autoReply": null,
+    "id": "TKT-1059"
+  },
+  {
+    "customerName": "Client 678",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.730Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.7,
+      "escalationProbability": 0.35,
+      "provider": "jev",
+      "latencyMs": 748
+    },
+    "autoReply": null,
+    "id": "TKT-1060"
+  },
+  {
+    "customerName": "Client 712",
+    "message": "Не могу привязать новый номер телефона. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.728Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 0.99,
+      "urgencyScore": 1.6,
+      "escalationProbability": 0.27,
+      "provider": "jev",
+      "latencyMs": 745
+    },
+    "autoReply": null,
+    "id": "TKT-1061"
+  },
+  {
+    "customerName": "Client 270",
+    "message": "СМС с кодом подтверждения не приходит. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.730Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 0.59,
+      "urgencyScore": 1.93,
+      "escalationProbability": 0.24,
+      "provider": "jev",
+      "latencyMs": 744
+    },
+    "autoReply": null,
+    "id": "TKT-1062"
+  },
+  {
+    "customerName": "Client 839",
+    "message": "Коробка была помята, а товар внутри разбит. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.728Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 0.45,
+      "urgencyScore": 1.92,
+      "escalationProbability": 0.59,
+      "provider": "jev",
+      "latencyMs": 741
+    },
+    "autoReply": null,
+    "id": "TKT-1063"
+  },
+  {
+    "customerName": "Client 433",
+    "message": "Не пришел чек на почту после оплаты. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.661Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.65,
+      "escalationProbability": 0.26,
+      "provider": "jev",
+      "latencyMs": 673
+    },
+    "autoReply": null,
+    "id": "TKT-1064"
+  },
+  {
+    "customerName": "Client 107",
+    "message": "Сайт висит уже полчаса, не могу зайти. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.735Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.53,
+      "provider": "jev",
+      "latencyMs": 746
+    },
+    "autoReply": null,
+    "id": "TKT-1065"
+  },
+  {
+    "customerName": "Client 319",
+    "message": "Можно ли изменить адрес доставки для текущего заказа? Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.673Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 0.88,
+      "urgencyScore": 1.86,
+      "escalationProbability": 0.29,
+      "provider": "jev",
+      "latencyMs": 684
+    },
+    "autoReply": null,
+    "id": "TKT-1066"
+  },
+  {
+    "customerName": "Client 565",
+    "message": "Привет! Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.934Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 0.81,
+      "urgencyScore": 1.7,
+      "escalationProbability": 0.09,
+      "provider": "jev",
+      "latencyMs": 944
+    },
+    "autoReply": null,
+    "id": "TKT-1067"
+  },
+  {
+    "customerName": "Client 720",
+    "message": "Я забыл пароль, а письмо для сброса не приходит. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.903Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.52,
+      "provider": "jev",
+      "latencyMs": 912
+    },
+    "autoReply": null,
+    "id": "TKT-1068"
+  },
+  {
+    "customerName": "Client 804",
+    "message": "API выдает 404 на эндпоинте создания заказа. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.900Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.69,
+      "provider": "jev",
+      "latencyMs": 909
+    },
+    "autoReply": null,
+    "id": "TKT-1069"
+  },
+  {
+    "customerName": "Client 928",
+    "message": "Не пришел чек на почту после оплаты. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.729Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.65,
+      "escalationProbability": 0.32,
+      "provider": "jev",
+      "latencyMs": 737
+    },
+    "autoReply": null,
+    "id": "TKT-1070"
+  },
+  {
+    "customerName": "Client 66",
+    "message": "Картинки товаров не прогружаются в каталоге. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.983Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.47,
+      "escalationProbability": 0.19,
+      "provider": "jev",
+      "latencyMs": 990
+    },
+    "autoReply": null,
+    "id": "TKT-1071"
+  },
+  {
+    "customerName": "Client 923",
+    "message": "Картинки товаров не прогружаются в каталоге. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.892Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.61,
+      "provider": "jev",
+      "latencyMs": 899
+    },
+    "autoReply": null,
+    "id": "TKT-1072"
+  },
+  {
+    "customerName": "Client 997",
+    "message": "Можно ли изменить адрес доставки для текущего заказа? Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.851Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 0.87,
+      "urgencyScore": 0.52,
+      "escalationProbability": 0.12,
+      "provider": "jev",
+      "latencyMs": 856
+    },
+    "autoReply": null,
+    "id": "TKT-1073"
+  },
+  {
+    "customerName": "Client 542",
+    "message": "Не пришел чек на почту после оплаты. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:33:00.195Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.1,
+      "escalationProbability": 0.25,
+      "provider": "jev",
+      "latencyMs": 1201
+    },
+    "autoReply": null,
+    "id": "TKT-1074"
+  },
+  {
+    "customerName": "Client 352",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней.",
+    "createdAt": "2026-10-04T15:33:00.002Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.91,
+      "escalationProbability": 0.38,
+      "provider": "jev",
+      "latencyMs": 1007
+    },
+    "autoReply": null,
+    "id": "TKT-1075"
+  },
+  {
+    "customerName": "Client 197",
+    "message": "Привет! Заранее спасибо.",
+    "createdAt": "2026-10-04T15:33:00.032Z",
+    "chatId": 123456789,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 0.69,
+      "urgencyScore": 0.02,
+      "escalationProbability": 0.02,
+      "provider": "jev",
+      "latencyMs": 1036
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1076"
+  },
+  {
+    "customerName": "Client 278",
+    "message": "Кнопка 'оформить заказ' не нажимается. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.735Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.5,
+      "provider": "jev",
+      "latencyMs": 738
+    },
+    "autoReply": null,
+    "id": "TKT-1077"
+  },
+  {
+    "customerName": "Client 704",
+    "message": "У меня списали деньги дважды за один заказ. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:33:00.008Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.52,
+      "provider": "jev",
+      "latencyMs": 1011
+    },
+    "autoReply": null,
+    "id": "TKT-1078"
+  },
+  {
+    "customerName": "Client 40",
+    "message": "Не могу привязать новый номер телефона.",
+    "createdAt": "2026-10-04T15:32:59.938Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 0.99,
+      "urgencyScore": 1.55,
+      "escalationProbability": 0.1,
+      "provider": "jev",
+      "latencyMs": 940
+    },
+    "autoReply": null,
+    "id": "TKT-1079"
+  },
+  {
+    "customerName": "Client 318",
+    "message": "Оплата не проходит, выдает ошибку 500.",
+    "createdAt": "2026-10-04T15:32:59.987Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.91,
+      "urgencyScore": 2,
+      "escalationProbability": 0.32,
+      "provider": "jev",
+      "latencyMs": 988
+    },
+    "autoReply": null,
+    "id": "TKT-1080"
+  },
+  {
+    "customerName": "Client 766",
+    "message": "Сайт висит уже полчаса, не могу зайти.",
+    "createdAt": "2026-10-04T15:32:59.885Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2.01,
+      "escalationProbability": 0.35,
+      "provider": "jev",
+      "latencyMs": 886
+    },
+    "autoReply": null,
+    "id": "TKT-1081"
+  },
+  {
+    "customerName": "Client 602",
+    "message": "Здравствуйте, до скольки работает ваша поддержка? Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.934Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "other",
+      "topicConfidence": 0.99,
+      "urgencyScore": 0,
+      "escalationProbability": 0.03,
+      "provider": "jev",
+      "latencyMs": 934
+    },
+    "autoReply": null,
+    "id": "TKT-1082"
+  },
+  {
+    "customerName": "Client 537",
+    "message": "Ужасный сервис, буду жаловаться. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.901Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 1,
+      "urgencyScore": 2.07,
+      "escalationProbability": 0.51,
+      "provider": "jev",
+      "latencyMs": 900
+    },
+    "autoReply": null,
+    "id": "TKT-1083"
+  },
+  {
+    "customerName": "Client 443",
+    "message": "Картинки товаров не прогружаются в каталоге. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.918Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.58,
+      "provider": "jev",
+      "latencyMs": 917
+    },
+    "autoReply": null,
+    "id": "TKT-1084"
+  },
+  {
+    "customerName": "Client 501",
+    "message": "Спасибо, вы мне очень помогли! Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.885Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "praise",
+      "topicConfidence": 1,
+      "urgencyScore": 0.07,
+      "escalationProbability": 0.02,
+      "provider": "jev",
+      "latencyMs": 883
+    },
+    "autoReply": null,
+    "id": "TKT-1085"
+  },
+  {
+    "customerName": "Client 79",
+    "message": "У меня списали деньги дважды за один заказ. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.986Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.74,
+      "provider": "jev",
+      "latencyMs": 983
+    },
+    "autoReply": null,
+    "id": "TKT-1086"
+  },
+  {
+    "customerName": "Client 668",
+    "message": "Оплата не проходит, выдает ошибку 500. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.904Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.95,
+      "urgencyScore": 2,
+      "escalationProbability": 0.75,
+      "provider": "jev",
+      "latencyMs": 901
+    },
+    "autoReply": null,
+    "id": "TKT-1087"
+  },
+  {
+    "customerName": "Client 641",
+    "message": "Курьер должен был приехать вчера, но его нет. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.901Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.63,
+      "escalationProbability": 0.49,
+      "provider": "jev",
+      "latencyMs": 897
+    },
+    "autoReply": null,
+    "id": "TKT-1088"
+  },
+  {
+    "customerName": "Client 417",
+    "message": "Не могу привязать новый номер телефона.",
+    "createdAt": "2026-10-04T15:32:59.770Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 0.99,
+      "urgencyScore": 1.57,
+      "escalationProbability": 0.11,
+      "provider": "jev",
+      "latencyMs": 765
+    },
+    "autoReply": null,
+    "id": "TKT-1089"
+  },
+  {
+    "customerName": "Client 913",
+    "message": "Мой аккаунт заблокирован, за что? Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.987Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.49,
+      "provider": "jev",
+      "latencyMs": 982
+    },
+    "autoReply": null,
+    "id": "TKT-1090"
+  },
+  {
+    "customerName": "Client 310",
+    "message": "СМС с кодом подтверждения не приходит. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.729Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 0.49,
+      "urgencyScore": 2,
+      "escalationProbability": 0.16,
+      "provider": "jev",
+      "latencyMs": 723
+    },
+    "autoReply": null,
+    "id": "TKT-1091"
+  },
+  {
+    "customerName": "Client 901",
+    "message": "Приложение вылетает при попытке открыть корзину. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.911Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.97,
+      "escalationProbability": 0.15,
+      "provider": "jev",
+      "latencyMs": 904
+    },
+    "autoReply": null,
+    "id": "TKT-1092"
+  },
+  {
+    "customerName": "Client 684",
+    "message": "Ужасный сервис, буду жаловаться. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.900Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 1,
+      "urgencyScore": 2.08,
+      "escalationProbability": 0.79,
+      "provider": "jev",
+      "latencyMs": 892
+    },
+    "autoReply": null,
+    "id": "TKT-1093"
+  },
+  {
+    "customerName": "Client 264",
+    "message": "Почему подписка продлилась без моего ведома? Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.983Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.83,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.52,
+      "provider": "jev",
+      "latencyMs": 973
+    },
+    "autoReply": null,
+    "id": "TKT-1094"
+  },
+  {
+    "customerName": "Client 865",
+    "message": "Картинки товаров не прогружаются в каталоге. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:33:00.001Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.63,
+      "escalationProbability": 0.23,
+      "provider": "jev",
+      "latencyMs": 990
+    },
+    "autoReply": null,
+    "id": "TKT-1095"
+  },
+  {
+    "customerName": "Client 868",
+    "message": "Почему подписка продлилась без моего ведома?",
+    "createdAt": "2026-10-04T15:32:59.919Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.87,
+      "urgencyScore": 1.46,
+      "escalationProbability": 0.18,
+      "provider": "jev",
+      "latencyMs": 908
+    },
+    "autoReply": null,
+    "id": "TKT-1096"
+  },
+  {
+    "customerName": "Client 833",
+    "message": "Не пришел чек на почту после оплаты.",
+    "createdAt": "2026-10-04T15:33:00.040Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.07,
+      "escalationProbability": 0.13,
+      "provider": "jev",
+      "latencyMs": 1028
+    },
+    "autoReply": null,
+    "id": "TKT-1097"
+  },
+  {
+    "customerName": "Client 473",
+    "message": "Ужасный сервис, буду жаловаться. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:33:00.030Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 1,
+      "urgencyScore": 2.09,
+      "escalationProbability": 0.66,
+      "provider": "jev",
+      "latencyMs": 1017
+    },
+    "autoReply": null,
+    "id": "TKT-1098"
+  },
+  {
+    "customerName": "Client 345",
+    "message": "Как удалить свой профиль и все данные? Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:33:00.002Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 1,
+      "urgencyScore": 0.48,
+      "escalationProbability": 0.12,
+      "provider": "jev",
+      "latencyMs": 988
+    },
+    "autoReply": null,
+    "id": "TKT-1099"
+  },
+  {
+    "customerName": "Client 741",
+    "message": "Привезли чужой заказ вместо моего. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:33:00.002Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 0.91,
+      "urgencyScore": 1.75,
+      "escalationProbability": 0.6,
+      "provider": "jev",
+      "latencyMs": 985
+    },
+    "autoReply": null,
+    "id": "TKT-1100"
+  },
+  {
+    "customerName": "Client 809",
+    "message": "Приложение вылетает при попытке открыть корзину. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.986Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.97,
+      "escalationProbability": 0.17,
+      "provider": "jev",
+      "latencyMs": 967
+    },
+    "autoReply": null,
+    "id": "TKT-1101"
+  },
+  {
+    "customerName": "Client 984",
+    "message": "Приложение вылетает при попытке открыть корзину. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.904Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.18,
+      "provider": "jev",
+      "latencyMs": 885
+    },
+    "autoReply": null,
+    "id": "TKT-1102"
+  },
+  {
+    "customerName": "Client 447",
+    "message": "Как стать вашим партнером? Это никуда не годится.",
+    "createdAt": "2026-10-04T15:33:00.102Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "sales",
+      "topicConfidence": 0.59,
+      "urgencyScore": 1.51,
+      "escalationProbability": 0.16,
+      "provider": "jev",
+      "latencyMs": 1082
+    },
+    "autoReply": null,
+    "id": "TKT-1103"
+  },
+  {
+    "customerName": "Client 349",
+    "message": "Можно ли изменить адрес доставки для текущего заказа? Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.884Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 0.87,
+      "urgencyScore": 1.87,
+      "escalationProbability": 0.28,
+      "provider": "jev",
+      "latencyMs": 863
+    },
+    "autoReply": null,
+    "id": "TKT-1104"
+  },
+  {
+    "customerName": "Client 862",
+    "message": "Привет! Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.910Z",
+    "chatId": 123456789,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 0.68,
+      "urgencyScore": 0.74,
+      "escalationProbability": 0.14,
+      "provider": "jev",
+      "latencyMs": 888
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1105"
+  },
+  {
+    "customerName": "Client 287",
+    "message": "Кнопка 'оформить заказ' не нажимается.",
+    "createdAt": "2026-10-04T15:32:59.892Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.07,
+      "provider": "jev",
+      "latencyMs": 869
+    },
+    "autoReply": null,
+    "id": "TKT-1106"
+  },
+  {
+    "customerName": "Client 812",
+    "message": "Кнопка 'оформить заказ' не нажимается. Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.985Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.17,
+      "provider": "jev",
+      "latencyMs": 961
+    },
+    "autoReply": null,
+    "id": "TKT-1107"
+  },
+  {
+    "customerName": "Client 28",
+    "message": "Спасибо, вы мне очень помогли! Пожалуйста, помогите.",
+    "createdAt": "2026-10-04T15:32:59.987Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "praise",
+      "topicConfidence": 0.94,
+      "urgencyScore": 0.79,
+      "escalationProbability": 0.09,
+      "provider": "jev",
+      "latencyMs": 961
+    },
+    "autoReply": null,
+    "id": "TKT-1108"
+  },
+  {
+    "customerName": "Client 813",
+    "message": "Здравствуйте, до скольки работает ваша поддержка? Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.904Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "complaint",
+      "topicConfidence": 0.78,
+      "urgencyScore": 1.15,
+      "escalationProbability": 0.17,
+      "provider": "jev",
+      "latencyMs": 878
+    },
+    "autoReply": null,
+    "id": "TKT-1109"
+  },
+  {
+    "customerName": "Client 319",
+    "message": "Мой аккаунт заблокирован, за что? Заранее спасибо.",
+    "createdAt": "2026-10-04T15:32:59.903Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.27,
+      "provider": "jev",
+      "latencyMs": 876
+    },
+    "autoReply": null,
+    "id": "TKT-1110"
+  },
+  {
+    "customerName": "Client 893",
+    "message": "Оплата не проходит, выдает ошибку 500. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.983Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 0.94,
+      "urgencyScore": 2,
+      "escalationProbability": 0.75,
+      "provider": "jev",
+      "latencyMs": 955
+    },
+    "autoReply": null,
+    "id": "TKT-1111"
+  },
+  {
+    "customerName": "Client 86",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:33:00.033Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.72,
+      "escalationProbability": 0.34,
+      "provider": "jev",
+      "latencyMs": 1004
+    },
+    "autoReply": null,
+    "id": "TKT-1112"
+  },
+  {
+    "customerName": "Client 191",
+    "message": "API выдает 404 на эндпоинте создания заказа. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:33:00.004Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.42,
+      "provider": "jev",
+      "latencyMs": 974
+    },
+    "autoReply": null,
+    "id": "TKT-1113"
+  },
+  {
+    "customerName": "Client 510",
+    "message": "Курьер должен был приехать вчера, но его нет. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.884Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.96,
+      "escalationProbability": 0.36,
+      "provider": "jev",
+      "latencyMs": 853
+    },
+    "autoReply": null,
+    "id": "TKT-1114"
+  },
+  {
+    "customerName": "Client 83",
+    "message": "Моя посылка потерялась, статус не меняется 5 дней. Это никуда не годится.",
+    "createdAt": "2026-10-04T15:32:59.984Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 1,
+      "urgencyScore": 1.99,
+      "escalationProbability": 0.41,
+      "provider": "jev",
+      "latencyMs": 952
+    },
+    "autoReply": null,
+    "id": "TKT-1115"
+  },
+  {
+    "customerName": "Client 499",
+    "message": "Где мой возврат средств? Жду уже неделю. Заранее спасибо.",
+    "createdAt": "2026-10-04T15:33:00.002Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.63,
+      "escalationProbability": 0.27,
+      "provider": "jev",
+      "latencyMs": 969
+    },
+    "autoReply": null,
+    "id": "TKT-1116"
+  },
+  {
+    "customerName": "Client 37",
+    "message": "Привезли чужой заказ вместо моего. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.910Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "delivery",
+      "topicConfidence": 0.88,
+      "urgencyScore": 2,
+      "escalationProbability": 0.75,
+      "provider": "jev",
+      "latencyMs": 876
+    },
+    "autoReply": null,
+    "id": "TKT-1117"
+  },
+  {
+    "customerName": "Client 450",
+    "message": "Не могу привязать новый номер телефона. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.900Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "account",
+      "topicConfidence": 0.98,
+      "urgencyScore": 2,
+      "escalationProbability": 0.47,
+      "provider": "jev",
+      "latencyMs": 866
+    },
+    "autoReply": null,
+    "id": "TKT-1118"
+  },
+  {
+    "customerName": "Client 247",
+    "message": "Не пришел чек на почту после оплаты. Срочно решите проблему!",
+    "createdAt": "2026-10-04T15:32:59.984Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 1.95,
+      "escalationProbability": 0.54,
+      "provider": "jev",
+      "latencyMs": 949
+    },
+    "autoReply": null,
+    "id": "TKT-1119"
+  },
+  {
+    "customerName": "ИП Иванов В.В.",
+    "message": "Добрый день. Наша компания хотела бы стать вашим логистическим партнером в регионе Екатеринбург. У нас свой автопарк из 15 Газелей. Куда можно направить коммерческое предложение?",
+    "createdAt": "2026-10-04T15:32:54.793Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "sales",
+      "topicConfidence": 0.83,
+      "urgencyScore": 0,
+      "escalationProbability": 0.09,
+      "provider": "jev",
+      "latencyMs": 344
+    },
+    "autoReply": null,
+    "id": "TKT-1019"
+  },
+  {
+    "customerName": "Мария",
+    "message": "Привет, а у вас случайно курьеры не знакомятся с клиентами? Вчера такой симпатичный парень привез заказ... 😉",
+    "createdAt": "2026-10-04T15:32:54.434Z",
+    "chatId": 123456789,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 0.9,
+      "urgencyScore": 0.01,
+      "escalationProbability": 0.07,
+      "provider": "jev",
+      "latencyMs": 336
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1018"
+  },
+  {
+    "customerName": "Елена (Злая клиентка)",
+    "message": "Вы вообще нормальные?! У меня списали с карты Тинькофф 4500 рублей ДВА РАЗА! Заказ ЗКЗ-993. Верните мои деньги немедленно, или я иду в полицию и пишу жалобу в роспотребнадзор!",
+    "createdAt": "2026-10-04T15:32:54.084Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 3,
+      "escalationProbability": 0.94,
+      "provider": "jev",
+      "latencyMs": 371
+    },
+    "autoReply": null,
+    "id": "TKT-1017"
+  },
+  {
+    "customerName": "Алексей Смирнов",
+    "message": "Здравствуйте. Я пытаюсь оформить заказ №8429, но когда я нажимаю кнопку 'Оформить', приложение сначала зависает на 10 секунд, а потом выкидывает на главный экран. Я уже пробовал с айфона жены, там тоже самое. Что мне делать? Срочно, там подарок на день рождения!",
+    "createdAt": "2026-10-04T15:32:53.690Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.61,
+      "provider": "jev",
+      "latencyMs": 510
+    },
+    "autoReply": null,
+    "id": "TKT-1016"
+  },
+  {
+    "customerName": "a",
+    "message": "Пей горно",
+    "createdAt": "2026-10-04T09:26:56.611Z",
+    "chatId": 6483380167,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 0.75,
+      "urgencyScore": 0.4,
+      "escalationProbability": 0.06,
+      "provider": "jev",
+      "latencyMs": 507
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1015"
+  },
+  {
+    "customerName": "a",
+    "message": "Как зарегистрироваться на IELTS?",
+    "createdAt": "2026-10-04T09:26:09.006Z",
+    "chatId": 6483380167,
+    "status": "replied",
+    "triageCache": {
+      "topic": "other",
+      "topicConfidence": 0.84,
+      "urgencyScore": 0.01,
+      "escalationProbability": 0.02,
+      "provider": "jev",
+      "latencyMs": 626
+    },
+    "autoReply": null,
+    "id": "TKT-1014"
+  },
+  {
+    "customerName": "Gabiden",
+    "message": "У меня украли 10000$ помоги мне",
+    "createdAt": "2026-10-04T09:19:36.382Z",
+    "chatId": 1644403014,
+    "status": "replied",
+    "triageCache": {
+      "topic": "other",
+      "topicConfidence": 0.93,
+      "urgencyScore": 2.63,
+      "escalationProbability": 0.74,
+      "provider": "jev",
+      "latencyMs": 481
+    },
+    "autoReply": null,
+    "id": "TKT-1013"
+  },
+  {
+    "customerName": "Alisultan",
+    "message": "Меня отшивают девочки что делать",
+    "createdAt": "2026-10-04T09:17:52.608Z",
+    "chatId": 6105028660,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 0.5,
+      "urgencyScore": 0.87,
+      "escalationProbability": 0.05,
+      "provider": "jev",
+      "latencyMs": 325
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1012"
+  },
+  {
+    "customerName": "Gabiden",
+    "message": "Начальница пишет скинуть срочно 10к евро",
+    "createdAt": "2026-10-04T09:17:51.503Z",
+    "chatId": 1644403014,
+    "status": "replied",
+    "triageCache": {
+      "topic": "spam",
+      "topicConfidence": 0.76,
+      "urgencyScore": 2.32,
+      "escalationProbability": 0.83,
+      "provider": "jev",
+      "latencyMs": 486
+    },
+    "autoReply": "Ваше сообщение было распознано как спам и автоматически закрыто.",
+    "id": "TKT-1011"
+  },
+  {
+    "customerName": "Alisultan",
+    "message": "Куда траться мои деньги ?",
+    "createdAt": "2026-10-04T09:17:17.336Z",
+    "chatId": 6105028660,
+    "status": "replied",
+    "triageCache": {
+      "topic": "other",
+      "topicConfidence": 0.62,
+      "urgencyScore": 0.19,
+      "escalationProbability": 0.03,
+      "provider": "jev",
+      "latencyMs": 320
+    },
+    "autoReply": null,
+    "id": "TKT-1010"
+  },
+  {
+    "customerName": "Gabiden",
+    "message": "У меня украли 10000$ помоги мне",
+    "createdAt": "2026-10-04T09:17:13.771Z",
+    "chatId": 1644403014,
+    "status": "replied",
+    "triageCache": {
+      "topic": "other",
+      "topicConfidence": 0.94,
+      "urgencyScore": 2.66,
+      "escalationProbability": 0.74,
+      "provider": "jev",
+      "latencyMs": 1579
+    },
+    "autoReply": null,
+    "id": "TKT-1009"
+  },
+  {
+    "customerName": "mukh4w",
+    "message": "у меня сообщение не пришло",
+    "createdAt": "2026-10-04T08:41:56.115Z",
+    "chatId": 6468213241,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 0.76,
+      "urgencyScore": 1.12,
+      "escalationProbability": 0.07,
+      "provider": "jev",
+      "latencyMs": 512
+    },
+    "autoReply": null,
+    "id": "TKT-1008"
+  },
+  {
+    "customerName": "mukh4w",
+    "message": "Спамапамамс",
+    "createdAt": "2026-10-04T08:41:44.479Z",
+    "chatId": 6468213241,
+    "status": "replied",
+    "triageCache": {
+      "topic": "spam",
+      "topicConfidence": 0.75,
+      "urgencyScore": 0.46,
+      "escalationProbability": 0.06,
+      "provider": "jev",
+      "latencyMs": 704
+    },
+    "autoReply": "Ваше сообщение было распознано как спам и автоматически закрыто.",
+    "id": "TKT-1007"
+  },
+  {
+    "customerName": "Han",
+    "message": "Как именно помогает для бизнесов?",
+    "createdAt": "2026-10-04T06:28:02.487Z",
+    "chatId": 1348694123,
+    "status": "replied",
+    "triageCache": {
+      "topic": "other",
+      "topicConfidence": 0.54,
+      "urgencyScore": 0,
+      "escalationProbability": 0.03,
+      "provider": "jev",
+      "latencyMs": 454
+    },
+    "autoReply": null,
+    "id": "TKT-1006"
+  },
+  {
+    "customerName": "Han",
+    "message": "Порно где?",
+    "createdAt": "2026-10-04T06:27:35.534Z",
+    "chatId": 1348694123,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 0.6,
+      "urgencyScore": 0.51,
+      "escalationProbability": 0.11,
+      "provider": "jev",
+      "latencyMs": 673
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1005"
+  },
+  {
+    "customerName": "ИП Иванов В.В.",
+    "message": "Добрый день. Наша компания хотела бы стать вашим логистическим партнером в регионе Екатеринбург. У нас свой автопарк из 15 Газелей. Куда можно направить коммерческое предложение?",
+    "createdAt": "2026-10-04T04:49:38.757Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "sales",
+      "topicConfidence": 0.78,
+      "urgencyScore": 0,
+      "escalationProbability": 0.07,
+      "provider": "jev",
+      "latencyMs": 346
+    },
+    "autoReply": null,
+    "id": "TKT-1004"
+  },
+  {
+    "customerName": "Мария",
+    "message": "Привет, а у вас случайно курьеры не знакомятся с клиентами? Вчера такой симпатичный парень привез заказ... 😉",
+    "createdAt": "2026-10-04T04:49:38.398Z",
+    "chatId": 123456789,
+    "status": "replied",
+    "triageCache": {
+      "topic": "offtopic",
+      "topicConfidence": 0.91,
+      "urgencyScore": 0.01,
+      "escalationProbability": 0.06,
+      "provider": "jev",
+      "latencyMs": 330
+    },
+    "autoReply": "Ваше сообщение классифицировано как оффтоп. Пожалуйста, задавайте вопросы только по теме сервиса.",
+    "id": "TKT-1003"
+  },
+  {
+    "customerName": "Елена (Злая клиентка)",
+    "message": "Вы вообще нормальные?! У меня списали с карты Тинькофф 4500 рублей ДВА РАЗА! Заказ ЗКЗ-993. Верните мои деньги немедленно, или я иду в полицию и пишу жалобу в роспотребнадзор!",
+    "createdAt": "2026-10-04T04:49:38.054Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "billing",
+      "topicConfidence": 1,
+      "urgencyScore": 3,
+      "escalationProbability": 0.95,
+      "provider": "jev",
+      "latencyMs": 339
+    },
+    "autoReply": null,
+    "id": "TKT-1002"
+  },
+  {
+    "customerName": "Алексей Смирнов",
+    "message": "Здравствуйте. Я пытаюсь оформить заказ №8429, но когда я нажимаю кнопку 'Оформить', приложение сначала зависает на 10 секунд, а потом выкидывает на главный экран. Я уже пробовал с айфона жены, там тоже самое. Что мне делать? Срочно, там подарок на день рождения!",
+    "createdAt": "2026-10-04T04:49:37.696Z",
+    "chatId": 123456789,
+    "status": "new",
+    "triageCache": {
+      "topic": "technical",
+      "topicConfidence": 1,
+      "urgencyScore": 2,
+      "escalationProbability": 0.57,
+      "provider": "jev",
+      "latencyMs": 384
+    },
+    "autoReply": null,
+    "id": "TKT-1001"
+  }
+]

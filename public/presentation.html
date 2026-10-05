@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSupport AI - Pitch Deck</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0B0E14; color: #f8fafc; overflow: hidden; margin: 0; }
+        .slide { display: none; height: 100vh; width: 100vw; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 2rem; position: relative; }
+        .slide.active { display: flex; animation: slideIn 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+        @keyframes slideIn { from { opacity: 0; transform: translateY(40px) scale(0.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+        
+        .glass-panel { background: rgba(20, 25, 35, 0.85); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 1.5rem; padding: 3.5rem; max-width: 1100px; width: 100%; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7); text-align: left; }
+        .highlight { color: #22d3ee; }
+        
+        .code-font { font-family: 'JetBrains Mono', monospace; }
+        .ts-tag { background: rgba(34, 211, 238, 0.1); color: #22d3ee; border: 1px solid rgba(34, 211, 238, 0.3); padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: bold; }
+        .ts-tag-score { color: #f472b6; background: rgba(244, 114, 182, 0.1); border-color: rgba(244, 114, 182, 0.3); }
+        .ts-tag-noul { color: #a78bfa; background: rgba(167, 139, 250, 0.1); border-color: rgba(167, 139, 250, 0.3); }
+
+        .nav-btn { position: absolute; bottom: 2rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 0.75rem 1.5rem; border-radius: 9999px; cursor: pointer; transition: all 0.2s; font-weight: 600; z-index: 50; }
+        .nav-btn:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); }
+        #prevBtn { left: 2rem; }
+        #nextBtn { right: 2rem; }
+        .progress-bar { position: absolute; top: 0; left: 0; height: 3px; background: #22d3ee; transition: width 0.3s; z-index: 100; box-shadow: 0 0 10px #22d3ee; }
+        
+        /* Grid Background Vibe */
+        .grid-bg { 
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px), 
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px); 
+            background-size: 40px 40px; 
+            background-position: center center; 
+        }
+
+        /* TypeSafe Animation Specifics */
+        .racing-bar { height: 8px; border-radius: 4px; position: relative; overflow: hidden; background: #1f2937; margin-top: 8px; }
+        .racer { height: 100%; position: absolute; left: 0; top: 0; border-radius: 4px; }
+        
+        @keyframes raceFast { 0% { width: 0%; } 10% { width: 100%; } 100% { width: 100%; } }
+        @keyframes raceSlow { 0% { width: 0%; } 60% { width: 60%; } 90% { width: 100%; } 100% { width: 100%; } }
+        
+        .run-anim .racer-jev { background: #22d3ee; animation: raceFast 4s infinite; box-shadow: 0 0 10px #22d3ee; }
+        .run-anim .racer-llm { background: #64748b; animation: raceSlow 4s infinite; }
+        
+        .json-key { color: #93c5fd; }
+        .json-string { color: #a7f3d0; }
+        .json-number { color: #fdf6e3; }
+        .json-punct { color: #64748b; }
+
+        .typewriter-text { overflow: hidden; white-space: nowrap; border-right: 2px solid #22d3ee; animation: typing 1.5s steps(40, end), blink-caret .75s step-end infinite; }
+        @keyframes typing { from { width: 0 } to { width: 100% } }
+        @keyframes blink-caret { from, to { border-color: transparent } 50% { border-color: #22d3ee; } }
+
+        .pulse-glow { animation: pulseGlow 2s infinite alternate; }
+        @keyframes pulseGlow { from { box-shadow: 0 0 20px -5px rgba(34,211,238,0.3); } to { box-shadow: 0 0 40px 5px rgba(34,211,238,0.6); } }
+    </style>
+</head>
+<body class="grid-bg">
+    <div class="progress-bar" id="progressBar" style="width: 0%"></div>
+
+    <!-- Slide 1: Title -->
+    <div class="slide active">
+        <div class="glass-panel text-center pulse-glow" style="border-color: rgba(34,211,238,0.3);">
+            <div class="inline-block bg-cyan-900/40 text-cyan-400 px-4 py-1 rounded-full text-xs code-font tracking-widest mb-6 uppercase border border-cyan-500/30">system_one :: startup</div>
+            <h1 class="text-7xl font-extrabold mb-4 tracking-tight">SmartSupport <span class="highlight">AI</span></h1>
+            <p class="text-2xl text-slate-300 mb-8 font-light">Двухуровневая AI-архитектура для победы над саппорт-хаосом</p>
+            <div class="flex justify-center gap-6 text-slate-400 mt-8 code-font text-sm">
+                <span class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-cyan-400"></div> Type-Safe Routing</span>
+                <span class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-pink-400"></div> RAG Generation</span>
+                <span class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-purple-400"></div> Auto-Resolve</span>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Slide 1.5: Problem -->
+    <div class="slide">
+        <div class="glass-panel w-full max-w-6xl">
+            <div class="inline-block bg-red-900/40 text-red-400 px-4 py-1 rounded-full text-xs code-font tracking-widest mb-6 uppercase border border-red-500/30">problem_statement</div>
+            <h2 class="text-4xl font-bold mb-8">Хаос в поддержке: <span class="highlight text-red-400">Почему всё ломается?</span></h2>
+            
+            <div class="grid grid-cols-2 gap-10 items-center">
+                <!-- Text Column -->
+                <div class="flex flex-col gap-6">
+                    <div class="bg-black/40 border border-red-500/20 p-5 rounded-xl">
+                        <div class="flex items-center gap-4 mb-2">
+                            <div class="text-red-400 text-3xl">⏳</div>
+                            <h3 class="text-xl font-bold text-white">Уставший саппорт</h3>
+                        </div>
+                        <p class="text-sm text-slate-400">Сотрудники тонут в рутине. Клиенты ждут часами, пока оператор ответит на базовый вопрос или отфильтрует спам.</p>
+                    </div>
+                    
+                    <div class="bg-black/40 border border-orange-500/20 p-5 rounded-xl">
+                        <div class="flex items-center gap-4 mb-2">
+                            <div class="text-orange-400 text-3xl">💸</div>
+                            <h3 class="text-xl font-bold text-white">Дорогой LLM-парсинг</h3>
+                        </div>
+                        <p class="text-sm text-slate-400">Гонять 100% входящего потока (вкл. "спасибо", "привет", мат) через тяжелые генеративные LLM — значит выжигать бюджет API.</p>
+                    </div>
+
+                    <div class="bg-black/40 border border-yellow-500/20 p-5 rounded-xl">
+                        <div class="flex items-center gap-4 mb-2">
+                            <div class="text-yellow-400 text-3xl">🤯</div>
+                            <h3 class="text-xl font-bold text-white">Хрупкость промптов</h3>
+                        </div>
+                        <p class="text-sm text-slate-400">Стандартные боты часто ломают логику роутинга, забывают вернуть JSON и начинают галлюцинировать.</p>
+                    </div>
+                </div>
+
+                <!-- Image Column -->
+                <div class="relative w-full h-full min-h-[300px] flex justify-center items-center">
+                    <div class="absolute inset-0 bg-red-500/20 blur-[100px] rounded-full"></div>
+                    <img src="tired.png" alt="Уставший саппорт" class="relative z-10 w-full h-auto object-cover rounded-2xl border-2 border-red-500/30 shadow-[0_0_40px_rgba(239,68,68,0.2)]">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 1.75: The Solution Overview -->
+    <div class="slide">
+        <div class="glass-panel text-center">
+            <div class="inline-block bg-green-900/40 text-green-400 px-4 py-1 rounded-full text-xs code-font tracking-widest mb-6 uppercase border border-green-500/30">solution_found</div>
+            <h2 class="text-4xl font-bold mb-6">Двухуровневый AI-Роутинг</h2>
+            <p class="text-xl text-slate-300 mb-12 max-w-3xl mx-auto font-light">Мы разделяем понимание намерений и генерацию текста. Каждая модель делает только то, в чем она лучшая.</p>
+            
+            <div class="flex items-center justify-center gap-4">
+                <div class="bg-cyan-900/20 border border-cyan-500/30 p-6 rounded-xl w-64">
+                    <div class="text-cyan-400 text-2xl mb-2 font-bold code-font">System 1</div>
+                    <div class="text-white font-semibold mb-2">Fast Routing</div>
+                    <p class="text-xs text-slate-400">Моментальная классификация, типизация и отсев мусора (Jev AI).</p>
+                </div>
+                <div class="text-slate-500 text-3xl">→</div>
+                <div class="bg-purple-900/20 border border-purple-500/30 p-6 rounded-xl w-64">
+                    <div class="text-purple-400 text-2xl mb-2 font-bold code-font">System 2</div>
+                    <div class="text-white font-semibold mb-2">Deep RAG</div>
+                    <p class="text-xs text-slate-400">Вдумчивая генерация ответа по базе знаний (Groq / Llama 3).</p>
+                </div>
+                <div class="text-slate-500 text-3xl">→</div>
+                <div class="bg-pink-900/20 border border-pink-500/30 p-6 rounded-xl w-64">
+                    <div class="text-pink-400 text-2xl mb-2 font-bold code-font">Result</div>
+                    <div class="text-white font-semibold mb-2">Happy User</div>
+                    <p class="text-xs text-slate-400">Мгновенный ответ по делу, ноль затрат на оффтоп.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: The Architecture -->
+    <div class="slide">
+        <div class="glass-panel">
+            <h2 class="text-4xl font-bold mb-8 border-b border-slate-700 pb-4">Архитектура: <span class="highlight">System 1 + System 2</span></h2>
+            <div class="grid grid-cols-2 gap-8">
+                <!-- System 1 -->
+                <div class="bg-[#111827] border border-cyan-500/30 p-6 rounded-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-cyan-500/20 text-cyan-400 px-3 py-1 text-[10px] code-font font-bold rounded-bl-lg uppercase">Level 1: Routing</div>
+                    <h3 class="text-2xl font-bold text-white mb-2 mt-4 flex items-center gap-2">
+                        <img src="typesafe-icon.png" class="w-6 h-6 rounded" onerror="this.style.display='none'"> 
+                        TypeSafe Jev AI
+                    </h3>
+                    <p class="text-sm text-slate-400 mb-4">Programmable common sense. Мгновенная классификация, типизированные ответы, авто-закрытие спама.</p>
+                    <div class="code-font text-xs bg-black/50 p-3 rounded border border-slate-800">
+                        <span class="ts-tag">Choice</span> Topic: offtopic <br>
+                        <span class="ts-tag ts-tag-score mt-2 inline-block">Score</span> Urgency: 0.15 <br>
+                        <span class="ts-tag ts-tag-noul mt-2 inline-block">Noul</span> Escalation: 0.03
+                    </div>
+                </div>
+                <!-- System 2 -->
+                <div class="bg-[#111827] border border-purple-500/30 p-6 rounded-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-purple-500/20 text-purple-400 px-3 py-1 text-[10px] code-font font-bold rounded-bl-lg uppercase">Level 2: Generation</div>
+                    <h3 class="text-2xl font-bold text-white mb-2 mt-4">Groq 20B + RAG</h3>
+                    <p class="text-sm text-slate-400 mb-4">Эмпатичная генерация ответа на базе базы знаний. Включается только для валидных тикетов.</p>
+                    <div class="code-font text-xs bg-black/50 p-3 rounded border border-slate-800 text-slate-300">
+                        > Fetching Knowledge Base...<br>
+                        > Context injected.<br>
+                        > Streaming response at 330 t/s...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Slide: Tech Stack & Architecture -->
+    <div class="slide">
+        <div class="glass-panel w-full max-w-5xl">
+            <div class="inline-block bg-blue-900/40 text-blue-400 px-4 py-1 rounded-full text-xs code-font tracking-widest mb-6 uppercase border border-blue-500/30">system_architecture</div>
+            <h2 class="text-4xl font-bold mb-8">Стек технологий & <span class="highlight text-blue-400">Пайплайн</span></h2>
+            
+            <div class="flex flex-col md:flex-row gap-6 items-stretch">
+                <!-- Stack Details -->
+                <div class="flex-1 bg-black/40 border border-slate-700 p-6 rounded-xl flex flex-col justify-center">
+                    <h3 class="text-xl font-bold mb-6 text-white border-b border-slate-700 pb-3">The Stack</h3>
+                    <ul class="space-y-4 code-font text-sm">
+                        <li class="flex items-center gap-3"><span class="w-2 h-2 bg-white rounded-full"></span> <b>Next.js (App Router):</b> Backend API & UI</li>
+                        <li class="flex items-center gap-3"><span class="w-2 h-2 bg-blue-500 rounded-full"></span> <b>TypeScript:</b> Строгая типизация от начала и до конца</li>
+                        <li class="flex items-center gap-3"><span class="w-2 h-2 bg-cyan-400 rounded-full"></span> <b>TypeSafe Jev AI:</b> Модель System One (Маршрутизация)</li>
+                        <li class="flex items-center gap-3"><span class="w-2 h-2 bg-purple-500 rounded-full"></span> <b>Groq (Llama 3):</b> Быстрый инференс (System Two)</li>
+                        <li class="flex items-center gap-3"><span class="w-2 h-2 bg-pink-500 rounded-full"></span> <b>Vector DB:</b> Хранение базы знаний для RAG</li>
+                    </ul>
+                </div>
+                
+                <!-- Diagram -->
+                <div class="flex-[1.5] bg-[#0d1117] border border-cyan-500/30 p-6 rounded-xl flex flex-col items-center justify-center relative overflow-hidden">
+                    <!-- Decor -->
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 blur-[50px]"></div>
+                    
+                    <div class="flex flex-col items-center w-full max-w-sm gap-3">
+                        <div class="bg-slate-800 border border-slate-600 text-white px-6 py-2 rounded-lg w-full text-center font-bold">User Input (Telegram/Web)</div>
+                        <div class="text-cyan-400 font-bold">↓</div>
+                        <div class="bg-cyan-900/30 border border-cyan-500 text-cyan-400 px-6 py-3 rounded-lg w-full text-center font-bold pulse-glow">
+                            TypeSafe Jev AI (System 1)
+                            <div class="text-[10px] font-normal opacity-80 mt-1">Определяет Choice, Score, Noul</div>
+                        </div>
+                        <div class="flex justify-between w-full px-6">
+                            <div class="text-slate-500 font-bold text-sm">↙ Спам</div>
+                            <div class="text-purple-400 font-bold text-sm">Вопрос ↘</div>
+                        </div>
+                        <div class="flex justify-between w-full gap-4">
+                            <div class="bg-slate-900 border border-slate-700 text-slate-400 px-4 py-2 rounded-lg w-full text-center text-xs">Auto-Close (0 t/s)</div>
+                            <div class="bg-purple-900/30 border border-purple-500 text-purple-400 px-4 py-2 rounded-lg w-full text-center text-xs">Groq RAG (System 2)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide: Jev AI Specs -->
+    <div class="slide">
+        <div class="glass-panel w-full max-w-5xl">
+            <div class="flex justify-between items-start mb-8">
+                <div>
+                    <div class="inline-block bg-cyan-900/40 text-cyan-400 px-4 py-1 rounded-full text-xs code-font tracking-widest mb-4 uppercase border border-cyan-500/30">The Secret Weapon</div>
+                    <h2 class="text-4xl font-bold">TypeSafe <span class="highlight">Jev AI</span></h2>
+                    <p class="text-lg text-slate-400 mt-2">Programmable common sense for software.</p>
+                </div>
+                <img src="typesafe-icon.png" class="w-16 h-16 rounded-xl border border-cyan-500/30 shadow-[0_0_20px_rgba(34,211,238,0.2)]">
+            </div>
+            
+            <div class="grid grid-cols-2 gap-6">
+                <!-- Specs -->
+                <div class="bg-[#0B0E14] border border-slate-800 p-6 rounded-xl">
+                    <h3 class="text-cyan-400 font-bold mb-4 flex items-center gap-2"><span class="text-xl">⚡</span> System One Model</h3>
+                    <p class="text-sm text-slate-300 mb-4">Jev AI не генерирует текст и не рассуждает. Он принимает текст и состояние приложения (State), а возвращает <strong>строго типизированные решения</strong> (Typed Judgments).</p>
+                    
+                    <h3 class="text-cyan-400 font-bold mb-4 mt-6 flex items-center gap-2"><span class="text-xl">🎯</span> Примитивы (Primitives)</h3>
+                    <ul class="space-y-3 text-sm text-slate-300 code-font">
+                        <li><span class="ts-tag inline-block w-16 text-center mr-2">Choice</span> Выбор из заданного набора</li>
+                        <li><span class="ts-tag ts-tag-noul inline-block w-16 text-center mr-2">Noul</span> Вероятность выполнения условия</li>
+                        <li><span class="ts-tag ts-tag-score inline-block w-16 text-center mr-2">Score</span> Оценка по шкале измерений</li>
+                    </ul>
+                </div>
+                
+                <!-- Code Example -->
+                <div class="bg-[#0d1117] border border-cyan-500/20 p-6 rounded-xl relative">
+                    <div class="absolute top-0 right-0 bg-slate-800 text-slate-400 px-3 py-1 text-xs code-font rounded-bl-lg border-l border-b border-slate-700">response.json</div>
+                    <pre class="code-font text-xs text-slate-300 mt-4 overflow-hidden">
+{
+  <span class="json-key">"routing_decision"</span>: {
+    <span class="json-key">"value"</span>: <span class="json-string">"billing_issue"</span>,
+    <span class="json-key">"confidence"</span>: <span class="json-number">0.98</span>
+  },
+  <span class="json-key">"is_spam"</span>: {
+    <span class="json-key">"probability"</span>: <span class="json-number">0.01</span>
+  },
+  <span class="json-key">"urgency_level"</span>: {
+    <span class="json-key">"value"</span>: <span class="json-number">4</span>,
+    <span class="json-key">"confidence"</span>: <span class="json-number">0.85</span>
+  }
+}
+                    </pre>
+                    <p class="text-xs text-slate-500 mt-4 pt-4 border-t border-slate-800">
+                        Код контролирует логику. Модель поставляет <strong>программируемый здравый смысл</strong>. 0% галлюцинаций в структуре данных.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: TypeSafe Vibe Animation -->
+    <div class="slide" id="animSlide">
+        <div class="glass-panel w-full max-w-5xl text-center" style="padding: 2rem;">
+            <h2 class="text-3xl font-bold mb-6">Скорость Jev AI <span class="highlight">vs Legacy LLMs</span></h2>
+            
+            <div class="relative w-full mx-auto rounded-xl overflow-hidden shadow-[0_0_50px_rgba(34,211,238,0.2)]" style="aspect-ratio: 1220/660; filter: invert(0.92) hue-rotate(180deg) brightness(1.2); max-height: 60vh;">
+                <!-- Background Image from Framer -->
+                <img src="https://framerusercontent.com/images/YyhlJGlIfXNWCfPWR9PoAy87w.svg" alt="Speed Compare" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                
+                <!-- Animated Bars from speed.html -->
+                <div style="position: absolute; inset: 0; display: flex; justify-content: center; align-items: center; padding: 2%;">
+                    <div class="framer-1fv6gwa-container" style="opacity: 1;"><!--$--><div style="width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center"><svg width="100%" height="100%" style="max-width: 100%; max-height: 100%;" viewBox="0 0 589 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+svg { overflow: visible; }
+@keyframes kf_speed_2_transform_0 {
+  0% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(0px) translateY(0px);
+  }
+  3.28% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(555px) translateY(0px);
+  }
+  6.56% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(0px) translateY(0px);
+  }
+  9.88% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(555px) translateY(0px);
+  }
+  13.17% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(0px) translateY(0px);
+  }
+  16.48% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(555px) translateY(0px);
+  }
+  19.66% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(0px) translateY(0px);
+  }
+  23.01% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(555px) translateY(0px);
+  }
+  26.3% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(0px) translateY(0px);
+  }
+  29.59% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(555px) translateY(0px);
+  }
+  32.91% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(0px) translateY(0px);
+  }
+  36.16% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  39.43% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  42.75% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  46.05% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  49.31% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  52.62% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  55.86% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  59.19% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  62.46% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  65.73% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  69.02% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  72.35% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  75.59% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  78.86% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  82.16% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  85.47% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  88.74% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  92.05% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+  95.45% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(554.882px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(56.5px) translateX(-0.118px) translateY(0px);
+  }
+}
+#speed_2 {
+  transform-origin: 0 0;
+  animation: kf_speed_2_transform_0 18.248s linear infinite;
+}
+@keyframes kf_haiku_speed_transform_0 {
+  0% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+  16.48% {
+    transform: translateX(10.118px) translateY(37px) translateX(555px) translateY(0px);
+  }
+  32.91% {
+    transform: translateX(10.118px) translateY(37px) translateX(-0.118px) translateY(0px);
+  }
+  50.46% {
+    transform: translateX(10.118px) translateY(37px) translateX(553.882px) translateY(0px);
+  }
+  69.02% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+  85.47% {
+    transform: translateX(10.118px) translateY(37px) translateX(553.882px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0.271px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+}
+#haiku_speed {
+  transform-origin: 0 0;
+  animation: kf_haiku_speed_transform_0 18.248s linear infinite;
+}
+@keyframes kf_opus_speed_transform_0 {
+  0% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+  26.3% {
+    transform: translateX(10.118px) translateY(37px) translateX(555px) translateY(0px);
+  }
+  50.46% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+  75.59% {
+    transform: translateX(10.118px) translateY(37px) translateX(555px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0.162px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+}
+#opus_speed {
+  transform-origin: 0 0;
+  animation: kf_opus_speed_transform_0 18.248s linear infinite;
+}
+@keyframes kf_sonnet_speed_transform_0 {
+  0% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+  50.46% {
+    transform: translateX(10.118px) translateY(37px) translateX(555px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0.08px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+}
+#sonnet_speed {
+  transform-origin: 0 0;
+  animation: kf_sonnet_speed_transform_0 18.248s linear infinite;
+}
+@keyframes kf_luna_speed_transform_0 {
+  0% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+  19.11% {
+    transform: translateX(10.118px) translateY(37px) translateX(555px) translateY(0px);
+  }
+  35.69% {
+    transform: translateX(10.118px) translateY(37px) translateX(-0.118px) translateY(0px);
+  }
+  53.07% {
+    transform: translateX(10.118px) translateY(37px) translateX(553.882px) translateY(0px);
+  }
+  71.65% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+  88.1% {
+    transform: translateX(10.118px) translateY(37px) translateX(553.882px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0.331px) translateY(0px);
+  }
+  100% {
+    transform: translateX(10.118px) translateY(37px) translateX(0px) translateY(0px);
+  }
+}
+#luna_speed {
+  transform-origin: 0 0;
+  animation: kf_luna_speed_transform_0 18.248s linear infinite;
+}
+</style>
+<g id="speed">
+<rect width="589" height="269" id="speed_bg_0" fill="#FEFEFE">
+</rect>
+<g id="speed-compare" transform="translate(2 2)">
+<rect id="speed_2" transform="translate(10.1182 56.5)" width="10" height="10" fill="#1E1E1E"></rect>
+<g id="text" transform="translate(10 30)">
+<g id="title-bar">
+<path d="M0 0H116V17H0V0Z" id="title-bar_bg_0" fill="#1E1E1E">
+</path>
+<path d="M0 0V-0.6H-0.6V0H0ZM116 0H116.6V-0.6H116V0ZM116 17V17.6H116.6V17H116ZM0 17H-0.6V17.6H0V17ZM0 0V0.6H116V0V-0.6H0V0ZM116 0H115.4V17H116H116.6V0H116ZM116 17V16.4H0V17V17.6H116V17ZM0 17H0.6V0H0H-0.6V17H0Z" fill="#1E1E1E"></path>
+<path id="Jev__TypeSafe_" transform="translate(1 2)" d="M7 10.5H6V1.5H3V-3.57628e-07H7V10.5ZM1 10.5V9H2V10.5H1ZM6 10.5V12H2V10.5H6ZM15.178 10.5H14.178V9H15.178V10.5ZM9.17805 10.5V4.5H10.178V6H14.178V4.5H15.178V7.5H10.178V10.5H9.17805ZM10.178 3H14.178V4.5H10.178V3ZM14.178 10.5V12H10.178V10.5H14.178ZM18.3561 3V6H17.3561V3H18.3561ZM21.3561 9V6H22.3561V9H21.3561ZM18.3561 9V6H19.3561V9H18.3561ZM21.3561 12H19.3561V9H21.3561V12ZM22.3561 6V3H23.3561V6H22.3561ZM38.7122 15H35.7122V-1.5H38.7122V-3.57628e-07H36.7122V13.5H38.7122V15ZM40.8902 1.5V-3.57628e-07H47.8902V1.5H44.8902V12H43.8902V1.5H40.8902ZM55.0683 15H51.0683V13.5H55.0683V15ZM56.0683 13.5H55.0683V10.5H54.0683V9H55.0683V3H56.0683V13.5ZM50.0683 10.5V3H51.0683V10.5H50.0683ZM54.0683 12H51.0683V10.5H54.0683V12ZM64.2463 10.5H63.2463V4.5H64.2463V10.5ZM59.2463 3V4.5H60.2463V6H59.2463V9H60.2463V10.5H59.2463V15H58.2463V3H59.2463ZM60.2463 10.5H63.2463V12H60.2463V10.5ZM63.2463 4.5H60.2463V3H63.2463V4.5ZM72.4244 10.5H71.4244V9H72.4244V10.5ZM66.4244 10.5V4.5H67.4244V6H71.4244V4.5H72.4244V7.5H67.4244V10.5H66.4244ZM67.4244 3H71.4244V4.5H67.4244V3ZM71.4244 10.5V12H67.4244V10.5H71.4244ZM79.6024 7.5H77.6024V6H79.6024V7.5ZM79.6024 10.5V7.5H80.6024V10.5H79.6024ZM79.6024 1.5H80.6024V3H79.6024V1.5ZM74.6024 12V10.5H79.6024V12H74.6024ZM79.6024 -3.57628e-07V1.5H74.6024V-3.57628e-07H79.6024ZM74.6024 10.5H73.6024V9H74.6024V10.5ZM74.6024 4.5H73.6024V1.5H74.6024V4.5ZM77.6024 4.5V6H74.6024V4.5H77.6024ZM88.7805 10.5H87.7805V7.5H83.7805V6H87.7805V4.5H88.7805V10.5ZM82.7805 7.5H83.7805V10.5H82.7805V7.5ZM83.7805 3H87.7805V4.5H83.7805V3ZM82.7805 4.5H83.7805V6H82.7805V4.5ZM87.7805 10.5V12H83.7805V10.5H87.7805ZM89.7805 12H88.7805V10.5H89.7805V12ZM90.9585 4.5V3H92.9585V-3.57628e-07H93.9585V3H95.9585V4.5H93.9585V12H92.9585V4.5H90.9585ZM95.9585 -1.5V-3.57628e-07H93.9585V-1.5H95.9585ZM105.137 10.5H104.137V9H105.137V10.5ZM99.1366 10.5V4.5H100.137V6H104.137V4.5H105.137V7.5H100.137V10.5H99.1366ZM100.137 3H104.137V4.5H100.137V3ZM104.137 10.5V12H100.137V10.5H104.137ZM108.315 -3.57628e-07V-1.5H111.315V15H108.315V13.5H110.315V-3.57628e-07H108.315Z" fill="#FEFEFE"></path>
+</g>
+<path id="speed_x" transform="translate(166.25 5)" d="M7 10.5V12H2V10.5H4V3H2V1.5H4V-3.57628e-07H5V10.5H7ZM10.178 -3.57628e-07H14.178V1.5H10.178V-3.57628e-07ZM13.178 9H14.178V10.5H13.178V9ZM15.178 1.5V9H14.178V7.5H10.178V6H14.178V1.5H15.178ZM10.178 6H9.17805V1.5H10.178V6ZM13.178 12H10.178V10.5H13.178V12ZM17.3561 10.5H21.3561V12H17.3561V10.5ZM21.3561 3V1.5H17.3561V-3.57628e-07H23.3561V1.5H22.3561V3H21.3561ZM21.3561 9H22.3561V10.5H21.3561V9ZM20.3561 4.5V3H21.3561V4.5H22.3561V6H19.3561V4.5H20.3561ZM22.3561 6H23.3561V9H22.3561V6ZM27.5341 10.5H29.5341V12H27.5341V10.5ZM39.7122 10.5H38.7122V6H39.7122V10.5ZM33.7122 10.5V3H34.7122V4.5H38.7122V6H34.7122V10.5H33.7122ZM34.7122 3V1.5H35.7122V3H34.7122ZM38.7122 10.5V12H34.7122V10.5H38.7122ZM35.7122 1.5V-3.57628e-07H38.7122V1.5H35.7122ZM42.8902 3V4.5H41.8902V3H42.8902ZM42.8902 9H43.8902V10.5H42.8902V9ZM42.8902 6V4.5H43.8902V6H42.8902ZM46.8902 10.5H47.8902V12H46.8902V10.5ZM46.8902 4.5V6H45.8902V4.5H46.8902ZM43.8902 9V6H45.8902V9H43.8902ZM46.8902 9V10.5H45.8902V9H46.8902ZM41.8902 12V10.5H42.8902V12H41.8902ZM46.8902 3H47.8902V4.5H46.8902V3Z" fill="#1E1E1E"></path>
+<path id="cost" transform="translate(524 5)" d="M3.28976 -1.5H4.28976V-3.57628e-07H6.28976V1.5H4.28976V4.5H6.28976V6H4.28976V10.5H6.28976V12H4.28976V13.5H3.28976V12H1.28976V10.5H3.28976V6H1.28976V4.5H3.28976V1.5H1.28976V-3.57628e-07H3.28976V-1.5ZM6.28976 10.5V6H7.28976V10.5H6.28976ZM6.28976 1.5H7.28976V3H6.28976V1.5ZM1.28976 10.5H0.289764V9H1.28976V10.5ZM1.28976 4.5H0.289764V1.5H1.28976V4.5ZM10.4678 -3.57628e-07H13.4678V1.5H10.4678V-3.57628e-07ZM9.46781 10.5V9H10.4678V10.5H9.46781ZM13.4678 3V1.5H14.4678V3H13.4678ZM10.4678 3H9.46781V1.5H10.4678V3ZM13.4678 9H14.4678V10.5H13.4678V9ZM8.46781 3H9.46781V9H8.46781V3ZM13.4678 12H10.4678V10.5H13.4678V12ZM14.4678 9V3H15.4678V9H14.4678ZM19.6459 10.5H21.6459V12H19.6459V10.5ZM25.8239 10.5H29.8239V12H25.8239V10.5ZM29.8239 3V1.5H25.8239V-3.57628e-07H31.8239V1.5H30.8239V3H29.8239ZM29.8239 9H30.8239V10.5H29.8239V9ZM28.8239 4.5V3H29.8239V4.5H30.8239V6H27.8239V4.5H28.8239ZM30.8239 6H31.8239V9H30.8239V6ZM35.002 -3.57628e-07H39.002V1.5H35.002V-3.57628e-07ZM38.002 9H39.002V10.5H38.002V9ZM40.002 1.5V9H39.002V7.5H35.002V6H39.002V1.5H40.002ZM35.002 6H34.002V1.5H35.002V6ZM38.002 12H35.002V10.5H38.002V12Z" fill="#1E1E1E"></path>
+</g>
+<path id="Vector_764" transform="translate(10 67)" d="M0 0H565" stroke="#1E1E1E"></path>
+</g>
+<g id="speed-compare_2" transform="translate(2 71)">
+<g id="text_2" transform="translate(10 10)">
+<g id="title-bar_2">
+<path d="M0 0H132V17H0V0Z" id="title-bar_2_bg_0" fill="#1E1E1E">
+</path>
+<path d="M0 0V-0.6H-0.6V0H0ZM132 0H132.6V-0.6H132V0ZM132 17V17.6H132.6V17H132ZM0 17H-0.6V17.6H0V17ZM0 0V0.6H132V0V-0.6H0V0ZM132 0H131.4V17H132H132.6V0H132ZM132 17V16.4H0V17V17.6H132V17ZM0 17H0.6V0H0H-0.6V17H0Z" fill="#1E1E1E"></path>
+<path id="Claude_Haiku_4_5" transform="translate(1 2)" d="M7 10.5H6V9H7V10.5ZM1 10.5H0V1.5H1V10.5ZM7 1.5V3H6V1.5H7ZM1 1.5V-3.57628e-07H6V1.5H1ZM6 10.5V12H1V10.5H6ZM12.178 10.5H14.178V12H9.17805V10.5H11.178V1.5H9.17805V-3.57628e-07H12.178V10.5ZM23.3561 10.5H22.3561V7.5H18.3561V6H22.3561V4.5H23.3561V10.5ZM17.3561 7.5H18.3561V10.5H17.3561V7.5ZM18.3561 3H22.3561V4.5H18.3561V3ZM17.3561 4.5H18.3561V6H17.3561V4.5ZM22.3561 10.5V12H18.3561V10.5H22.3561ZM24.3561 12H23.3561V10.5H24.3561V12ZM25.5341 10.5V3H26.5341V10.5H25.5341ZM29.5341 9H30.5341V3H31.5341V12H30.5341V10.5H29.5341V9ZM29.5341 12H26.5341V10.5H29.5341V12ZM33.7122 10.5V4.5H34.7122V10.5H33.7122ZM37.7122 3V4.5H34.7122V3H37.7122ZM37.7122 9H38.7122V6H37.7122V4.5H38.7122V-3.57628e-07H39.7122V12H38.7122V10.5H37.7122V9ZM37.7122 12H34.7122V10.5H37.7122V12ZM47.8902 10.5H46.8902V9H47.8902V10.5ZM41.8902 10.5V4.5H42.8902V6H46.8902V4.5H47.8902V7.5H42.8902V10.5H41.8902ZM42.8902 3H46.8902V4.5H42.8902V3ZM46.8902 10.5V12H42.8902V10.5H46.8902ZM57.2463 12V-3.57628e-07H58.2463V4.5H63.2463V-3.57628e-07H64.2463V12H63.2463V6H58.2463V12H57.2463ZM72.4244 10.5H71.4244V7.5H67.4244V6H71.4244V4.5H72.4244V10.5ZM66.4244 7.5H67.4244V10.5H66.4244V7.5ZM67.4244 3H71.4244V4.5H67.4244V3ZM66.4244 4.5H67.4244V6H66.4244V4.5ZM71.4244 10.5V12H67.4244V10.5H71.4244ZM73.4244 12H72.4244V10.5H73.4244V12ZM77.6024 10.5H79.6024V12H74.6024V10.5H76.6024V4.5H74.6024V3H77.6024V10.5ZM77.6024 1.5H76.6024V-3.57628e-07H77.6024V1.5ZM83.7805 -3.57628e-07V7.5H84.7805V9H83.7805V12H82.7805V-3.57628e-07H83.7805ZM87.7805 10.5H88.7805V12H87.7805V10.5ZM84.7805 7.5V6H85.7805V7.5H84.7805ZM87.7805 4.5H86.7805V3H87.7805V4.5ZM87.7805 9V10.5H86.7805V9H87.7805ZM85.7805 7.5H86.7805V9H85.7805V7.5ZM85.7805 4.5H86.7805V6H85.7805V4.5ZM90.9585 10.5V3H91.9585V10.5H90.9585ZM94.9585 9H95.9585V3H96.9585V12H95.9585V10.5H94.9585V9ZM94.9585 12H91.9585V10.5H94.9585V12ZM108.315 6V4.5H109.315V6H108.315ZM112.315 7.5H113.315V9H112.315V12H111.315V9H106.315V7.5H107.315V6H108.315V7.5H111.315V3H112.315V7.5ZM109.315 4.5V3H110.315V4.5H109.315ZM112.315 1.5H111.315V-3.57628e-07H112.315V1.5ZM111.315 3H110.315V1.5H111.315V3ZM117.493 10.5H119.493V12H117.493V10.5ZM123.671 10.5H127.671V12H123.671V10.5ZM124.671 3H128.671V4.5H123.671V-3.57628e-07H128.671V1.5H124.671V3ZM127.671 9H128.671V10.5H127.671V9ZM129.671 4.5V9H128.671V4.5H129.671Z" fill="#FEFEFE"></path>
+</g>
+<path id="speed_x_2" transform="translate(166.25 5)" d="M7 10.5H6V6H7V10.5ZM1 10.5V3H2V4.5H6V6H2V10.5H1ZM2 3V1.5H3V3H2ZM6 10.5V12H2V10.5H6ZM3 1.5V-3.57628e-07H6V1.5H3ZM11.178 10.5H13.178V12H11.178V10.5ZM18.3561 -3.57628e-07H22.3561V1.5H18.3561V-3.57628e-07ZM18.3561 3H17.3561V1.5H18.3561V3ZM18.3561 9H19.3561V10.5H23.3561V12H17.3561V10.5H18.3561V9ZM19.3561 7.5H20.3561V9H19.3561V7.5ZM22.3561 4.5V6H21.3561V4.5H22.3561ZM22.3561 1.5H23.3561V4.5H22.3561V1.5ZM20.3561 7.5V6H21.3561V7.5H20.3561ZM26.5341 3V4.5H25.5341V3H26.5341ZM26.5341 9H27.5341V10.5H26.5341V9ZM26.5341 6V4.5H27.5341V6H26.5341ZM30.5341 10.5H31.5341V12H30.5341V10.5ZM30.5341 4.5V6H29.5341V4.5H30.5341ZM27.5341 9V6H29.5341V9H27.5341ZM30.5341 9V10.5H29.5341V9H30.5341ZM25.5341 12V10.5H26.5341V12H25.5341ZM30.5341 3H31.5341V4.5H30.5341V3Z" fill="#1E1E1E"></path>
+<path id="cost_2" transform="translate(516 5)" d="M3.11172 -1.5H4.11172V-3.57628e-07H6.11172V1.5H4.11172V4.5H6.11172V6H4.11172V10.5H6.11172V12H4.11172V13.5H3.11172V12H1.11172V10.5H3.11172V6H1.11172V4.5H3.11172V1.5H1.11172V-3.57628e-07H3.11172V-1.5ZM6.11172 10.5V6H7.11172V10.5H6.11172ZM6.11172 1.5H7.11172V3H6.11172V1.5ZM1.11172 10.5H0.111717V9H1.11172V10.5ZM1.11172 4.5H0.111717V1.5H1.11172V4.5ZM15.2898 10.5V12H10.2898V10.5H12.2898V3H10.2898V1.5H12.2898V-3.57628e-07H13.2898V10.5H15.2898ZM18.4678 -3.57628e-07H22.4678V1.5H18.4678V-3.57628e-07ZM21.4678 9H22.4678V10.5H21.4678V9ZM23.4678 1.5V9H22.4678V7.5H18.4678V6H22.4678V1.5H23.4678ZM18.4678 6H17.4678V1.5H18.4678V6ZM21.4678 12H18.4678V10.5H21.4678V12ZM27.6459 10.5H29.6459V12H27.6459V10.5ZM34.8239 6V4.5H35.8239V6H34.8239ZM38.8239 7.5H39.8239V9H38.8239V12H37.8239V9H32.8239V7.5H33.8239V6H34.8239V7.5H37.8239V3H38.8239V7.5ZM35.8239 4.5V3H36.8239V4.5H35.8239ZM38.8239 1.5H37.8239V-3.57628e-07H38.8239V1.5ZM37.8239 3H36.8239V1.5H37.8239V3ZM43.002 -3.57628e-07H47.002V1.5H43.002V-3.57628e-07ZM46.002 9H47.002V10.5H46.002V9ZM48.002 1.5V9H47.002V7.5H43.002V6H47.002V1.5H48.002ZM43.002 6H42.002V1.5H43.002V6ZM46.002 12H43.002V10.5H46.002V12Z" fill="#1E1E1E"></path>
+</g>
+<path id="Vector_764_2" transform="translate(10 47)" d="M0 0H565" stroke="#1E1E1E"></path>
+<rect id="haiku_speed" transform="translate(10.1182 37)" width="10" height="10" fill="#1E1E1E"></rect>
+</g>
+<g id="speed-compare_3" transform="translate(2 120)">
+<g id="text_3" transform="translate(10 10)">
+<g id="title-bar_3">
+<path d="M0 0H108V17H0V0Z" id="title-bar_3_bg_0" fill="#1E1E1E">
+</path>
+<path d="M0 0V-0.6H-0.6V0H0ZM108 0H108.6V-0.6H108V0ZM108 17V17.6H108.6V17H108ZM0 17H-0.6V17.6H0V17ZM0 0V0.6H108V0V-0.6H0V0ZM108 0H107.4V17H108H108.6V0H108ZM108 17V16.4H0V17V17.6H108V17ZM0 17H0.6V0H0H-0.6V17H0Z" fill="#1E1E1E"></path>
+<path id="Claude_Opus_5" transform="translate(1 2)" d="M7 10.5H6V9H7V10.5ZM1 10.5H0V1.5H1V10.5ZM7 1.5V3H6V1.5H7ZM1 1.5V-3.57628e-07H6V1.5H1ZM6 10.5V12H1V10.5H6ZM12.178 10.5H14.178V12H9.17805V10.5H11.178V1.5H9.17805V-3.57628e-07H12.178V10.5ZM23.3561 10.5H22.3561V7.5H18.3561V6H22.3561V4.5H23.3561V10.5ZM17.3561 7.5H18.3561V10.5H17.3561V7.5ZM18.3561 3H22.3561V4.5H18.3561V3ZM17.3561 4.5H18.3561V6H17.3561V4.5ZM22.3561 10.5V12H18.3561V10.5H22.3561ZM24.3561 12H23.3561V10.5H24.3561V12ZM25.5341 10.5V3H26.5341V10.5H25.5341ZM29.5341 9H30.5341V3H31.5341V12H30.5341V10.5H29.5341V9ZM29.5341 12H26.5341V10.5H29.5341V12ZM33.7122 10.5V4.5H34.7122V10.5H33.7122ZM37.7122 3V4.5H34.7122V3H37.7122ZM37.7122 9H38.7122V6H37.7122V4.5H38.7122V-3.57628e-07H39.7122V12H38.7122V10.5H37.7122V9ZM37.7122 12H34.7122V10.5H37.7122V12ZM47.8902 10.5H46.8902V9H47.8902V10.5ZM41.8902 10.5V4.5H42.8902V6H46.8902V4.5H47.8902V7.5H42.8902V10.5H41.8902ZM42.8902 3H46.8902V4.5H42.8902V3ZM46.8902 10.5V12H42.8902V10.5H46.8902ZM64.2463 10.5H63.2463V1.5H64.2463V10.5ZM58.2463 10.5H57.2463V1.5H58.2463V10.5ZM58.2463 12V10.5H63.2463V12H58.2463ZM63.2463 -3.57628e-07V1.5H58.2463V-3.57628e-07H63.2463ZM72.4244 10.5H71.4244V4.5H72.4244V10.5ZM67.4244 3V4.5H68.4244V6H67.4244V9H68.4244V10.5H67.4244V15H66.4244V3H67.4244ZM68.4244 10.5H71.4244V12H68.4244V10.5ZM71.4244 4.5H68.4244V3H71.4244V4.5ZM74.6024 10.5V3H75.6024V10.5H74.6024ZM78.6024 9H79.6024V3H80.6024V12H79.6024V10.5H78.6024V9ZM78.6024 12H75.6024V10.5H78.6024V12ZM83.7805 3H87.7805V4.5H83.7805V3ZM83.7805 9V10.5H82.7805V9H83.7805ZM83.7805 6H82.7805V4.5H83.7805V6ZM87.7805 7.5V9H85.7805V7.5H87.7805ZM87.7805 10.5V9H88.7805V10.5H87.7805ZM87.7805 4.5H88.7805V6H87.7805V4.5ZM83.7805 10.5H87.7805V12H83.7805V10.5ZM83.7805 7.5V6H85.7805V7.5H83.7805ZM99.1366 10.5H103.137V12H99.1366V10.5ZM100.137 3H104.137V4.5H99.1366V-3.57628e-07H104.137V1.5H100.137V3ZM103.137 9H104.137V10.5H103.137V9ZM105.137 4.5V9H104.137V4.5H105.137Z" fill="#FEFEFE"></path>
+</g>
+<path id="speed_x_3" transform="translate(166.25 5)" d="M2 -3.57628e-07H6V1.5H2V-3.57628e-07ZM2 3H1V1.5H2V3ZM2 9H3V10.5H7V12H1V10.5H2V9ZM3 7.5H4V9H3V7.5ZM6 4.5V6H5V4.5H6ZM6 1.5H7V4.5H6V1.5ZM4 7.5V6H5V7.5H4ZM11.178 10.5H13.178V12H11.178V10.5ZM23.3561 10.5V12H18.3561V10.5H20.3561V3H18.3561V1.5H20.3561V-3.57628e-07H21.3561V10.5H23.3561ZM26.5341 3V4.5H25.5341V3H26.5341ZM26.5341 9H27.5341V10.5H26.5341V9ZM26.5341 6V4.5H27.5341V6H26.5341ZM30.5341 10.5H31.5341V12H30.5341V10.5ZM30.5341 4.5V6H29.5341V4.5H30.5341ZM27.5341 9V6H29.5341V9H27.5341ZM30.5341 9V10.5H29.5341V9H30.5341ZM25.5341 12V10.5H26.5341V12H25.5341ZM30.5341 3H31.5341V4.5H30.5341V3Z" fill="#1E1E1E"></path>
+<path id="cost_3" transform="translate(507 5)" d="M3.93367 -1.5H4.93367V-3.57628e-07H6.93367V1.5H4.93367V4.5H6.93367V6H4.93367V10.5H6.93367V12H4.93367V13.5H3.93367V12H1.93367V10.5H3.93367V6H1.93367V4.5H3.93367V1.5H1.93367V-3.57628e-07H3.93367V-1.5ZM6.93367 10.5V6H7.93367V10.5H6.93367ZM6.93367 1.5H7.93367V3H6.93367V1.5ZM1.93367 10.5H0.93367V9H1.93367V10.5ZM1.93367 4.5H0.93367V1.5H1.93367V4.5ZM16.1117 10.5V12H11.1117V10.5H13.1117V3H11.1117V1.5H13.1117V-3.57628e-07H14.1117V10.5H16.1117ZM21.2898 10.5H20.2898V7.5H21.2898V10.5ZM22.2898 3H23.2898V4.5H22.2898V3ZM21.2898 7.5V4.5H22.2898V7.5H21.2898ZM18.2898 1.5V-3.57628e-07H24.2898V3H23.2898V1.5H18.2898ZM20.2898 10.5V12H19.2898V10.5H20.2898ZM32.4678 10.5H31.4678V6H32.4678V10.5ZM26.4678 10.5V3H27.4678V4.5H31.4678V6H27.4678V10.5H26.4678ZM27.4678 3V1.5H28.4678V3H27.4678ZM31.4678 10.5V12H27.4678V10.5H31.4678ZM28.4678 1.5V-3.57628e-07H31.4678V1.5H28.4678ZM36.6459 10.5H38.6459V12H36.6459V10.5ZM43.8239 -3.57628e-07H46.8239V1.5H43.8239V-3.57628e-07ZM42.8239 10.5V9H43.8239V10.5H42.8239ZM46.8239 3V1.5H47.8239V3H46.8239ZM43.8239 3H42.8239V1.5H43.8239V3ZM46.8239 9H47.8239V10.5H46.8239V9ZM41.8239 3H42.8239V9H41.8239V3ZM46.8239 12H43.8239V10.5H46.8239V12ZM47.8239 9V3H48.8239V9H47.8239ZM51.002 10.5H55.002V12H51.002V10.5ZM52.002 3H56.002V4.5H51.002V-3.57628e-07H56.002V1.5H52.002V3ZM55.002 9H56.002V10.5H55.002V9ZM57.002 4.5V9H56.002V4.5H57.002Z" fill="#1E1E1E"></path>
+</g>
+<path id="Vector_764_3" transform="translate(10 47)" d="M0 0H565" stroke="#1E1E1E"></path>
+<rect id="opus_speed" transform="translate(10.1182 37)" width="10" height="10" fill="#1E1E1E"></rect>
+</g>
+<g id="speed-compare_4" transform="translate(2 169)">
+<g id="text_4" transform="translate(10 10)">
+<g id="title-bar_4">
+<path d="M0 0H124V17H0V0Z" id="title-bar_4_bg_0" fill="#1E1E1E">
+</path>
+<path d="M0 0V-0.6H-0.6V0H0ZM124 0H124.6V-0.6H124V0ZM124 17V17.6H124.6V17H124ZM0 17H-0.6V17.6H0V17ZM0 0V0.6H124V0V-0.6H0V0ZM124 0H123.4V17H124H124.6V0H124ZM124 17V16.4H0V17V17.6H124V17ZM0 17H0.6V0H0H-0.6V17H0Z" fill="#1E1E1E"></path>
+<path id="Claude_Sonnet_5" transform="translate(1 2)" d="M7 10.5H6V9H7V10.5ZM1 10.5H0V1.5H1V10.5ZM7 1.5V3H6V1.5H7ZM1 1.5V-3.57628e-07H6V1.5H1ZM6 10.5V12H1V10.5H6ZM12.178 10.5H14.178V12H9.17805V10.5H11.178V1.5H9.17805V-3.57628e-07H12.178V10.5ZM23.3561 10.5H22.3561V7.5H18.3561V6H22.3561V4.5H23.3561V10.5ZM17.3561 7.5H18.3561V10.5H17.3561V7.5ZM18.3561 3H22.3561V4.5H18.3561V3ZM17.3561 4.5H18.3561V6H17.3561V4.5ZM22.3561 10.5V12H18.3561V10.5H22.3561ZM24.3561 12H23.3561V10.5H24.3561V12ZM25.5341 10.5V3H26.5341V10.5H25.5341ZM29.5341 9H30.5341V3H31.5341V12H30.5341V10.5H29.5341V9ZM29.5341 12H26.5341V10.5H29.5341V12ZM33.7122 10.5V4.5H34.7122V10.5H33.7122ZM37.7122 3V4.5H34.7122V3H37.7122ZM37.7122 9H38.7122V6H37.7122V4.5H38.7122V-3.57628e-07H39.7122V12H38.7122V10.5H37.7122V9ZM37.7122 12H34.7122V10.5H37.7122V12ZM47.8902 10.5H46.8902V9H47.8902V10.5ZM41.8902 10.5V4.5H42.8902V6H46.8902V4.5H47.8902V7.5H42.8902V10.5H41.8902ZM42.8902 3H46.8902V4.5H42.8902V3ZM46.8902 10.5V12H42.8902V10.5H46.8902ZM63.2463 7.5H61.2463V6H63.2463V7.5ZM63.2463 10.5V7.5H64.2463V10.5H63.2463ZM63.2463 1.5H64.2463V3H63.2463V1.5ZM58.2463 12V10.5H63.2463V12H58.2463ZM63.2463 -3.57628e-07V1.5H58.2463V-3.57628e-07H63.2463ZM58.2463 10.5H57.2463V9H58.2463V10.5ZM58.2463 4.5H57.2463V1.5H58.2463V4.5ZM61.2463 4.5V6H58.2463V4.5H61.2463ZM72.4244 10.5H71.4244V4.5H72.4244V10.5ZM66.4244 10.5V4.5H67.4244V10.5H66.4244ZM67.4244 3H71.4244V4.5H67.4244V3ZM71.4244 10.5V12H67.4244V10.5H71.4244ZM75.6024 3V4.5H76.6024V6H75.6024V12H74.6024V3H75.6024ZM80.6024 4.5V12H79.6024V4.5H80.6024ZM79.6024 4.5H76.6024V3H79.6024V4.5ZM83.7805 3V4.5H84.7805V6H83.7805V12H82.7805V3H83.7805ZM88.7805 4.5V12H87.7805V4.5H88.7805ZM87.7805 4.5H84.7805V3H87.7805V4.5ZM96.9585 10.5H95.9585V9H96.9585V10.5ZM90.9585 10.5V4.5H91.9585V6H95.9585V4.5H96.9585V7.5H91.9585V10.5H90.9585ZM91.9585 3H95.9585V4.5H91.9585V3ZM95.9585 10.5V12H91.9585V10.5H95.9585ZM102.137 10.5H101.137V4.5H99.1366V3H101.137V-1.5H102.137V3H104.137V4.5H102.137V10.5ZM104.137 10.5V12H102.137V10.5H104.137ZM115.493 10.5H119.493V12H115.493V10.5ZM116.493 3H120.493V4.5H115.493V-3.57628e-07H120.493V1.5H116.493V3ZM119.493 9H120.493V10.5H119.493V9ZM121.493 4.5V9H120.493V4.5H121.493Z" fill="#FEFEFE"></path>
+</g>
+<path id="speed_x_4" transform="translate(166.25 5)" d="M7 10.5V12H2V10.5H4V3H2V1.5H4V-3.57628e-07H5V10.5H7ZM11.178 10.5H13.178V12H11.178V10.5ZM18.3561 -3.57628e-07H21.3561V1.5H18.3561V-3.57628e-07ZM17.3561 10.5V9H18.3561V10.5H17.3561ZM21.3561 3V1.5H22.3561V3H21.3561ZM18.3561 3H17.3561V1.5H18.3561V3ZM21.3561 9H22.3561V10.5H21.3561V9ZM16.3561 3H17.3561V9H16.3561V3ZM21.3561 12H18.3561V10.5H21.3561V12ZM22.3561 9V3H23.3561V9H22.3561ZM26.5341 3V4.5H25.5341V3H26.5341ZM26.5341 9H27.5341V10.5H26.5341V9ZM26.5341 6V4.5H27.5341V6H26.5341ZM30.5341 10.5H31.5341V12H30.5341V10.5ZM30.5341 4.5V6H29.5341V4.5H30.5341ZM27.5341 9V6H29.5341V9H27.5341ZM30.5341 9V10.5H29.5341V9H30.5341ZM25.5341 12V10.5H26.5341V12H25.5341ZM30.5341 3H31.5341V4.5H30.5341V3Z" fill="#1E1E1E"></path>
+<path id="cost_4" transform="translate(507 5)" d="M3.93367 -1.5H4.93367V-3.57628e-07H6.93367V1.5H4.93367V4.5H6.93367V6H4.93367V10.5H6.93367V12H4.93367V13.5H3.93367V12H1.93367V10.5H3.93367V6H1.93367V4.5H3.93367V1.5H1.93367V-3.57628e-07H3.93367V-1.5ZM6.93367 10.5V6H7.93367V10.5H6.93367ZM6.93367 1.5H7.93367V3H6.93367V1.5ZM1.93367 10.5H0.93367V9H1.93367V10.5ZM1.93367 4.5H0.93367V1.5H1.93367V4.5ZM16.1117 10.5V12H11.1117V10.5H13.1117V3H11.1117V1.5H13.1117V-3.57628e-07H14.1117V10.5H16.1117ZM24.2898 10.5V12H19.2898V10.5H21.2898V3H19.2898V1.5H21.2898V-3.57628e-07H22.2898V10.5H24.2898ZM29.4678 10.5H28.4678V7.5H29.4678V10.5ZM30.4678 3H31.4678V4.5H30.4678V3ZM29.4678 7.5V4.5H30.4678V7.5H29.4678ZM26.4678 1.5V-3.57628e-07H32.4678V3H31.4678V1.5H26.4678ZM28.4678 10.5V12H27.4678V10.5H28.4678ZM36.6459 10.5H38.6459V12H36.6459V10.5ZM42.8239 10.5H46.8239V12H42.8239V10.5ZM46.8239 3V1.5H42.8239V-3.57628e-07H48.8239V1.5H47.8239V3H46.8239ZM46.8239 9H47.8239V10.5H46.8239V9ZM45.8239 4.5V3H46.8239V4.5H47.8239V6H44.8239V4.5H45.8239ZM47.8239 6H48.8239V9H47.8239V6ZM57.002 10.5H56.002V6H57.002V10.5ZM52.002 -3.57628e-07H56.002V1.5H52.002V-3.57628e-07ZM51.002 10.5V6H52.002V10.5H51.002ZM51.002 4.5V1.5H52.002V4.5H51.002ZM57.002 1.5V4.5H56.002V1.5H57.002ZM52.002 6V4.5H56.002V6H52.002ZM56.002 10.5V12H52.002V10.5H56.002Z" fill="#1E1E1E"></path>
+</g>
+<path id="Vector_764_4" transform="translate(10 47)" d="M0 0H565" stroke="#1E1E1E"></path>
+<rect id="sonnet_speed" transform="translate(10.1182 37)" width="10" height="10" fill="#1E1E1E"></rect>
+</g>
+<g id="speed-compare_5" transform="translate(2 218)">
+<g id="text_5" transform="translate(10 10)">
+<g id="title-bar_5">
+<path d="M0 0H99V17H0V0Z" id="title-bar_5_bg_0" fill="#1E1E1E">
+</path>
+<path d="M0 0V-0.6H-0.6V0H0ZM99 0H99.6V-0.6H99V0ZM99 17V17.6H99.6V17H99ZM0 17H-0.6V17.6H0V17ZM0 0V0.6H99V0V-0.6H0V0ZM99 0H98.4V17H99H99.6V0H99ZM99 17V16.4H0V17V17.6H99V17ZM0 17H0.6V0H0H-0.6V17H0Z" fill="#1E1E1E"></path>
+<path id="Gpt-5_6-Luna" transform="translate(1 2)" d="M4 7.5V6H7V12H6V10.5H5V9H6V7.5H4ZM1 10.5H0V1.5H1V10.5ZM7 1.5V3H6V1.5H7ZM1 1.5V-3.57628e-07H6V1.5H1ZM5 12H1V10.5H5V12ZM15.178 10.5H14.178V4.5H15.178V10.5ZM10.178 3V4.5H11.178V6H10.178V9H11.178V10.5H10.178V15H9.17805V3H10.178ZM11.178 10.5H14.178V12H11.178V10.5ZM14.178 4.5H11.178V3H14.178V4.5ZM20.3561 10.5H19.3561V4.5H17.3561V3H19.3561V-1.5H20.3561V3H22.3561V4.5H20.3561V10.5ZM22.3561 10.5V12H20.3561V10.5H22.3561ZM31.5341 7.5H24.5341V6H31.5341V7.5ZM33.7122 10.5H37.7122V12H33.7122V10.5ZM34.7122 3H38.7122V4.5H33.7122V-3.57628e-07H38.7122V1.5H34.7122V3ZM37.7122 9H38.7122V10.5H37.7122V9ZM39.7122 4.5V9H38.7122V4.5H39.7122ZM43.8902 10.5H45.8902V12H43.8902V10.5ZM56.0683 10.5H55.0683V6H56.0683V10.5ZM50.0683 10.5V3H51.0683V4.5H55.0683V6H51.0683V10.5H50.0683ZM51.0683 3V1.5H52.0683V3H51.0683ZM55.0683 10.5V12H51.0683V10.5H55.0683ZM52.0683 1.5V-3.57628e-07H55.0683V1.5H52.0683ZM64.2463 7.5H57.2463V6H64.2463V7.5ZM67.4244 -3.57628e-07V10.5H72.4244V12H66.4244V-3.57628e-07H67.4244ZM74.6024 10.5V3H75.6024V10.5H74.6024ZM78.6024 9H79.6024V3H80.6024V12H79.6024V10.5H78.6024V9ZM78.6024 12H75.6024V10.5H78.6024V12ZM83.7805 3V4.5H84.7805V6H83.7805V12H82.7805V3H83.7805ZM88.7805 4.5V12H87.7805V4.5H88.7805ZM87.7805 4.5H84.7805V3H87.7805V4.5ZM96.9585 10.5H95.9585V7.5H91.9585V6H95.9585V4.5H96.9585V10.5ZM90.9585 7.5H91.9585V10.5H90.9585V7.5ZM91.9585 3H95.9585V4.5H91.9585V3ZM90.9585 4.5H91.9585V6H90.9585V4.5ZM95.9585 10.5V12H91.9585V10.5H95.9585ZM97.9585 12H96.9585V10.5H97.9585V12Z" fill="#FEFEFE"></path>
+</g>
+<path id="speed_x_5" transform="translate(166.25 5)" d="M7 10.5H6V6H7V10.5ZM1 10.5V3H2V4.5H6V6H2V10.5H1ZM2 3V1.5H3V3H2ZM6 10.5V12H2V10.5H6ZM3 1.5V-3.57628e-07H6V1.5H3ZM11.178 10.5H13.178V12H11.178V10.5ZM18.3561 -3.57628e-07H21.3561V1.5H18.3561V-3.57628e-07ZM17.3561 10.5V9H18.3561V10.5H17.3561ZM21.3561 3V1.5H22.3561V3H21.3561ZM18.3561 3H17.3561V1.5H18.3561V3ZM21.3561 9H22.3561V10.5H21.3561V9ZM16.3561 3H17.3561V9H16.3561V3ZM21.3561 12H18.3561V10.5H21.3561V12ZM22.3561 9V3H23.3561V9H22.3561ZM26.5341 3V4.5H25.5341V3H26.5341ZM26.5341 9H27.5341V10.5H26.5341V9ZM26.5341 6V4.5H27.5341V6H26.5341ZM30.5341 10.5H31.5341V12H30.5341V10.5ZM30.5341 4.5V6H29.5341V4.5H30.5341ZM27.5341 9V6H29.5341V9H27.5341ZM30.5341 9V10.5H29.5341V9H30.5341ZM25.5341 12V10.5H26.5341V12H25.5341ZM30.5341 3H31.5341V4.5H30.5341V3Z" fill="#1E1E1E"></path>
+<path id="cost_5" transform="translate(524 5)" d="M3.28976 -1.5H4.28976V-3.57628e-07H6.28976V1.5H4.28976V4.5H6.28976V6H4.28976V10.5H6.28976V12H4.28976V13.5H3.28976V12H1.28976V10.5H3.28976V6H1.28976V4.5H3.28976V1.5H1.28976V-3.57628e-07H3.28976V-1.5ZM6.28976 10.5V6H7.28976V10.5H6.28976ZM6.28976 1.5H7.28976V3H6.28976V1.5ZM1.28976 10.5H0.289764V9H1.28976V10.5ZM1.28976 4.5H0.289764V1.5H1.28976V4.5ZM9.46781 10.5H13.4678V12H9.46781V10.5ZM13.4678 3V1.5H9.46781V-3.57628e-07H15.4678V1.5H14.4678V3H13.4678ZM13.4678 9H14.4678V10.5H13.4678V9ZM12.4678 4.5V3H13.4678V4.5H14.4678V6H11.4678V4.5H12.4678ZM14.4678 6H15.4678V9H14.4678V6ZM19.6459 10.5H21.6459V12H19.6459V10.5ZM25.8239 10.5H29.8239V12H25.8239V10.5ZM29.8239 3V1.5H25.8239V-3.57628e-07H31.8239V1.5H30.8239V3H29.8239ZM29.8239 9H30.8239V10.5H29.8239V9ZM28.8239 4.5V3H29.8239V4.5H30.8239V6H27.8239V4.5H28.8239ZM30.8239 6H31.8239V9H30.8239V6ZM40.002 10.5V12H35.002V10.5H37.002V3H35.002V1.5H37.002V-3.57628e-07H38.002V10.5H40.002Z" fill="#1E1E1E"></path>
+</g>
+<path id="Vector_764_5" transform="translate(10 47)" d="M0 0H565" stroke="#1E1E1E"></path>
+<rect id="luna_speed" transform="translate(10.1182 37)" width="10" height="10" fill="#1E1E1E"></rect>
+</g>
+</g>
+</svg></div><!--/$--></div>
+
+                </div>
+            </div>
+            
+            <p class="text-slate-400 text-sm mt-4">График скорости вывода TypeSafe Jev AI (System 1) в сравнении с генеративными моделями.</p>
+        </div>
+    </div>
+
+    <!-- Slide 4: Business Value -->
+    <div class="slide">
+        <div class="glass-panel text-center">
+            <h2 class="text-5xl font-extrabold mb-12">Результаты для бизнеса</h2>
+            
+            <div class="grid grid-cols-3 gap-6 mb-8">
+                <div class="bg-[#111827] p-6 rounded-xl border border-slate-700 hover:border-cyan-500/50 transition-colors">
+                    <div class="text-5xl font-black text-white mb-2 code-font">335</div>
+                    <div class="text-sm text-slate-400 uppercase tracking-wide font-bold">Тикетов в секунду</div>
+                    <div class="text-xs text-slate-500 mt-2">Пропускная способность System 1</div>
+                </div>
+                <div class="bg-[#111827] p-6 rounded-xl border border-slate-700 hover:border-emerald-500/50 transition-colors">
+                    <div class="text-5xl font-black text-white mb-2 code-font">-30%</div>
+                    <div class="text-sm text-slate-400 uppercase tracking-wide font-bold">Экономия на токенах</div>
+                    <div class="text-xs text-slate-500 mt-2">Мусор отсекается до генерации LLM</div>
+                </div>
+                <div class="bg-[#111827] p-6 rounded-xl border border-slate-700 hover:border-purple-500/50 transition-colors">
+                    <div class="text-5xl font-black text-white mb-2 code-font">0</div>
+                    <div class="text-sm text-slate-400 uppercase tracking-wide font-bold">Ошибок парсинга</div>
+                    <div class="text-xs text-slate-500 mt-2">100% гарантия типов от Jev AI</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: QR Code & Demo -->
+    <div class="slide">
+        <div class="glass-panel flex flex-col items-center">
+            <h2 class="text-4xl font-extrabold mb-4">Попробуйте сами 🚀</h2>
+            <p class="text-slate-400 mb-8 max-w-lg text-center">Отсканируйте QR-код, чтобы открыть Telegram бота. Напишите спам или вопрос про оплату, и посмотрите как быстро работает System 1.</p>
+            
+            <div class="bg-white p-4 rounded-2xl mb-8 pulse-glow">
+                <img src="/qr-tg-bot.png" alt="Telegram Bot QR" class="w-64 h-64 object-contain rounded-xl">
+            </div>
+            
+            <div class="flex gap-4">
+                <a href="/" target="_blank" class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 px-8 rounded-lg transition-colors code-font text-sm flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    Открыть Dashboard
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <button id="prevBtn" class="nav-btn" onclick="changeSlide(-1)">← Назад</button>
+    <button id="nextBtn" class="nav-btn" onclick="changeSlide(1)">Вперед →</button>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const progressBar = document.getElementById('progressBar');
+        const animSlide = document.getElementById('animSlide');
+        const typedOutput = document.getElementById('typedOutput');
+
+        function updateUI() {
+            slides.forEach((slide, index) => {
+                if(index === currentSlide) {
+                    slide.classList.add('active');
+                } else {
+                    slide.classList.remove('active');
+                }
+            });
+            
+            progressBar.style.width = ((currentSlide + 1) / slides.length * 100) + '%';
+            
+            document.getElementById('prevBtn').style.display = currentSlide === 0 ? 'none' : 'block';
+            document.getElementById('nextBtn').style.display = currentSlide === slides.length - 1 ? 'none' : 'block';
+
+            // Trigger animation if on Slide 3
+            if (slides[currentSlide].id === 'animSlide') {
+                animSlide.classList.add('run-anim');
+                typedOutput.style.opacity = '0';
+                setTimeout(() => {
+                    typedOutput.style.transition = 'opacity 0.2s';
+                    typedOutput.style.opacity = '1';
+                }, 400); // 400ms simulate Jev speed
+            } else {
+                animSlide.classList.remove('run-anim');
+                typedOutput.style.opacity = '0';
+            }
+        }
+
+        function changeSlide(direction) {
+            currentSlide += direction;
+            if(currentSlide < 0) currentSlide = 0;
+            if(currentSlide >= slides.length) currentSlide = slides.length - 1;
+            updateUI();
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if(e.key === 'ArrowRight' || e.key === 'Space') changeSlide(1);
+            if(e.key === 'ArrowLeft') changeSlide(-1);
+        });
+
+        updateUI();
+    </script>
+</body>
+</html>

@@ -1,0 +1,4004 @@
+{
+  "messages": [
+    {
+      "customerName": "Client 6006",
+      "message": "заказ 85746 курьер разбил товар Заранее спасибо"
+    },
+    {
+      "customerName": "Client 1639",
+      "message": "Ало поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 5922",
+      "message": "Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 7968",
+      "message": "вылетает приложение на айфоне"
+    },
+    {
+      "customerName": "Client 6839",
+      "message": "Здравствуйте! как удалить аккаунт полностью? Помогите плз"
+    },
+    {
+      "customerName": "Client 8493",
+      "message": "Ало не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 6086",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 4477",
+      "message": "Привет. почему списали за подписку без предупреждения?"
+    },
+    {
+      "customerName": "Client 7321",
+      "message": "ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 4985",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 1871",
+      "message": "привет хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 6628",
+      "message": "Здравствуйте. код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 4038",
+      "message": "Здравствуйте. где мой чек?"
+    },
+    {
+      "customerName": "Client 4573",
+      "message": "выдает ошибку на этапе оплаты Срочно!"
+    },
+    {
+      "customerName": "Client 4826",
+      "message": "привет Коробка вся мятая, товар разбит"
+    },
+    {
+      "customerName": "Client 7735",
+      "message": "не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 5981",
+      "message": "пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 7672",
+      "message": "Добрый день, Подписка продлилась сама, я не хотел"
+    },
+    {
+      "customerName": "Client 6190",
+      "message": "добрый вечер обещали доставить до 18:00, уже 20:00 !!!!!"
+    },
+    {
+      "customerName": "Client 4251",
+      "message": "Кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 5114",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 6705",
+      "message": "Добрый день, сайт висит не грузится ..."
+    },
+    {
+      "customerName": "Client 6833",
+      "message": "Здравствуйте! заказ 76272 я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 1328",
+      "message": "не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 5286",
+      "message": "Привет. Заказ 47090 выдает ошибку на этапе оплаты"
+    },
+    {
+      "customerName": "Client 9933",
+      "message": "Здравствуйте. сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 7724",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 4716",
+      "message": "как вам позвонить?"
+    },
+    {
+      "customerName": "Client 4722",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 7842",
+      "message": "Здравствуйте. не нажимается кнопка далее !!!!!"
+    },
+    {
+      "customerName": "Client 9765",
+      "message": "старый номер утерян, как зайти? Срочно!"
+    },
+    {
+      "customerName": "Client 4916",
+      "message": "Картинки товаров пустые"
+    },
+    {
+      "customerName": "Client 4956",
+      "message": "ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 5127",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 2187",
+      "message": "привет посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 5576",
+      "message": "Привезли чужой заказ! Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 7045",
+      "message": "сайт лежит, 502 bad gateway срочно!"
+    },
+    {
+      "customerName": "Client 5908",
+      "message": "привезли чужой заказ! срочно!"
+    },
+    {
+      "customerName": "Client 5722",
+      "message": "Здравствуйте! как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 2151",
+      "message": "эй, старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 5769",
+      "message": "Добрый день, мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 9135",
+      "message": "добрый день, почему сняли два раза деньги???"
+    },
+    {
+      "customerName": "Client 7986",
+      "message": "эй, не дает привязать новый номер надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 6324",
+      "message": "аккаунт заблокирован, разбаньте ..."
+    },
+    {
+      "customerName": "Client 7020",
+      "message": "добрый вечер обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 3518",
+      "message": "не дает оплатить картой"
+    },
+    {
+      "customerName": "Client 5503",
+      "message": "Привет. статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 1774",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 1110",
+      "message": "мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 6478",
+      "message": "удалите мои данные Жду ответа."
+    },
+    {
+      "customerName": "Client 3971",
+      "message": "не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 7075",
+      "message": "Картинки товаров пустые Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 9757",
+      "message": "Здравствуйте! перепутали посылки"
+    },
+    {
+      "customerName": "Client 1128",
+      "message": "не могу нажать оплатить Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 8439",
+      "message": "b2b сотрудничество интересует"
+    },
+    {
+      "customerName": "Client 7671",
+      "message": "добрый день, посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 4480",
+      "message": "как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 6796",
+      "message": "как вам позвонить?"
+    },
+    {
+      "customerName": "Client 3376",
+      "message": "добрый вечер не могу зайти на сайт, грузит бесконечно Срочно!"
+    },
+    {
+      "customerName": "Client 7193",
+      "message": "не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 6165",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 2133",
+      "message": "посылка зависла на складе ..."
+    },
+    {
+      "customerName": "Client 3402",
+      "message": "Эй, перепутали посылки"
+    },
+    {
+      "customerName": "Client 6888",
+      "message": "здравствуйте. старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 7633",
+      "message": "хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 5474",
+      "message": "какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 6965",
+      "message": "соедините с оператором Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 1530",
+      "message": "Кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 9931",
+      "message": "заказ 40137 обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 7916",
+      "message": "не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 8947",
+      "message": "Здравствуйте. не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 5888",
+      "message": "не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 8318",
+      "message": "добрый день, как поменять адрес доставки? ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 1203",
+      "message": "здравствуйте! пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 7981",
+      "message": "добрый вечер ошибка 404 при переходе в каталог !!!!!"
+    },
+    {
+      "customerName": "Client 5723",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 1708",
+      "message": "не могу зайти на сайт, грузит бесконечно Заранее спасибо"
+    },
+    {
+      "customerName": "Client 1967",
+      "message": "Привет. как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 7717",
+      "message": "Здравствуйте. ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 4207",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 4368",
+      "message": "добрый вечер просто тест ..."
+    },
+    {
+      "customerName": "Client 4963",
+      "message": "Привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 4306",
+      "message": "привет обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 5294",
+      "message": "вылетает приложение на айфоне"
+    },
+    {
+      "customerName": "Client 1187",
+      "message": "ало вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 6137",
+      "message": "почему сняли два раза деньги??? Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 5982",
+      "message": "Добрый день, кому отправить КП?"
+    },
+    {
+      "customerName": "Client 1915",
+      "message": "привет мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 3628",
+      "message": "Спасибо, очень помогли! Жду ответа."
+    },
+    {
+      "customerName": "Client 4636",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 8745",
+      "message": "Эй, спасибо, вопрос решен Заранее спасибо"
+    },
+    {
+      "customerName": "Client 4962",
+      "message": "эй, приехало разбитым"
+    },
+    {
+      "customerName": "Client 3927",
+      "message": "хочу стать вашим партнером по логистике Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 5860",
+      "message": "как удалить аккаунт полностью? !!!!!"
+    },
+    {
+      "customerName": "Client 4541",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 4997",
+      "message": "старый номер утерян, как зайти? надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 4024",
+      "message": "не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 6988",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 8536",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 5927",
+      "message": "Коробка вся мятая, товар разбит"
+    },
+    {
+      "customerName": "Client 6998",
+      "message": "привет аууу"
+    },
+    {
+      "customerName": "Client 4018",
+      "message": "выдает какую-то ошибку сервера ..."
+    },
+    {
+      "customerName": "Client 5261",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 9012",
+      "message": "выдает ошибку на этапе оплаты !!!!!"
+    },
+    {
+      "customerName": "Client 2828",
+      "message": "отличный сервис жду ответа."
+    },
+    {
+      "customerName": "Client 2922",
+      "message": "Привет. выдает какую-то ошибку сервера"
+    },
+    {
+      "customerName": "Client 3364",
+      "message": "ало отличный сервис ..."
+    },
+    {
+      "customerName": "Client 3666",
+      "message": "Кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 6405",
+      "message": "код подтверждения не отправляется Заранее спасибо"
+    },
+    {
+      "customerName": "Client 7169",
+      "message": "добрый вечер хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 3627",
+      "message": "оплатил час назад, а чека нет"
+    },
+    {
+      "customerName": "Client 4289",
+      "message": "выдает ошибку на этапе оплаты"
+    },
+    {
+      "customerName": "Client 6534",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 8209",
+      "message": "Курьер должен был быть вчера, где он? Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 5639",
+      "message": "Здравствуйте! соедините с оператором"
+    },
+    {
+      "customerName": "Client 1133",
+      "message": "добрый вечер можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 7813",
+      "message": "привет хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 1533",
+      "message": "привет статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 7572",
+      "message": "добрый вечер почему списали за подписку без предупреждения?"
+    },
+    {
+      "customerName": "Client 6707",
+      "message": "привет сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 5928",
+      "message": "коробка вся мятая, товар разбит"
+    },
+    {
+      "customerName": "Client 7238",
+      "message": "добрый вечер просто тест"
+    },
+    {
+      "customerName": "Client 6505",
+      "message": "Здравствуйте! можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 4779",
+      "message": "ошибка 404 при переходе в каталог заранее спасибо"
+    },
+    {
+      "customerName": "Client 2428",
+      "message": "Здравствуйте. как удалить аккаунт полностью? Жду ответа."
+    },
+    {
+      "customerName": "Client 1413",
+      "message": "привет Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 2699",
+      "message": "привет. зкз- 61543 поврежденная упаковка, хочу возврат ..."
+    },
+    {
+      "customerName": "Client 5707",
+      "message": "привет какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 5743",
+      "message": "почему сняли два раза деньги???"
+    },
+    {
+      "customerName": "Client 9004",
+      "message": "привет. удалите мои данные"
+    },
+    {
+      "customerName": "Client 8430",
+      "message": "не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 9096",
+      "message": "Добрый день, вы тут? Помогите плз"
+    },
+    {
+      "customerName": "Client 4247",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 2760",
+      "message": "мой аккаунт заблокали, почему? Жду ответа."
+    },
+    {
+      "customerName": "Client 4940",
+      "message": "Здравствуйте! хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 4279",
+      "message": "когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 1732",
+      "message": "Здравствуйте! не дает привязать новый номер Заранее спасибо"
+    },
+    {
+      "customerName": "Client 7576",
+      "message": "здравствуйте! не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 2627",
+      "message": "отличный сервис заранее спасибо"
+    },
+    {
+      "customerName": "Client 8018",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 9751",
+      "message": "кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 1871",
+      "message": "Добрый день, Курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 2286",
+      "message": "какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 9986",
+      "message": "отмените автопродление Помогите плз"
+    },
+    {
+      "customerName": "Client 7861",
+      "message": "как вам позвонить? ..."
+    },
+    {
+      "customerName": "Client 2859",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 1492",
+      "message": "добрый вечер отличный сервис"
+    },
+    {
+      "customerName": "Client 3854",
+      "message": "когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 9037",
+      "message": "b2b сотрудничество интересует"
+    },
+    {
+      "customerName": "Client 1672",
+      "message": "как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 6587",
+      "message": "не приходит письмо на почту для сброса Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 3669",
+      "message": "ЗКЗ- 24438 можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 7208",
+      "message": "поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 7678",
+      "message": "не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 8313",
+      "message": "кому отправить КП?"
+    },
+    {
+      "customerName": "Client 1660",
+      "message": "привет Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 9185",
+      "message": "где едет мой заказ? Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 8302",
+      "message": "Добрый день, спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 8955",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 5802",
+      "message": "эй, курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 7355",
+      "message": "Ало b2b сотрудничество интересует"
+    },
+    {
+      "customerName": "Client 9640",
+      "message": "добрый вечер вы тут?"
+    },
+    {
+      "customerName": "Client 6704",
+      "message": "Здравствуйте! отличный сервис !!!!!"
+    },
+    {
+      "customerName": "Client 4872",
+      "message": "Не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 4850",
+      "message": "заказ 47043 я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 7692",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 4590",
+      "message": "добрый вечер коробка вся мятая, товар разбит"
+    },
+    {
+      "customerName": "Client 2770",
+      "message": "курьер разбил товар"
+    },
+    {
+      "customerName": "Client 8959",
+      "message": "Привезли чужой заказ! Жду ответа."
+    },
+    {
+      "customerName": "Client 6246",
+      "message": "добрый вечер b2b сотрудничество интересует срочно!"
+    },
+    {
+      "customerName": "Client 6870",
+      "message": "поврежденная упаковка, хочу возврат Срочно!"
+    },
+    {
+      "customerName": "Client 8753",
+      "message": "когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 7851",
+      "message": "удалите мои данные Помогите плз"
+    },
+    {
+      "customerName": "Client 7539",
+      "message": "как вам позвонить? помогите плз"
+    },
+    {
+      "customerName": "Client 6538",
+      "message": "худший сервис эвер Заранее спасибо"
+    },
+    {
+      "customerName": "Client 4799",
+      "message": "здравствуйте! вылетает приложение на айфоне"
+    },
+    {
+      "customerName": "Client 2920",
+      "message": "b2b сотрудничество интересует жду ответа."
+    },
+    {
+      "customerName": "Client 2929",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 8500",
+      "message": "посылка зависла на складе Жду ответа."
+    },
+    {
+      "customerName": "Client 1218",
+      "message": "можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 8711",
+      "message": "привет. выдает ошибку на этапе оплаты ..."
+    },
+    {
+      "customerName": "Client 3922",
+      "message": "здравствуйте. забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 2056",
+      "message": "добрый вечер статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 6164",
+      "message": "перепутали посылки помогите плз"
+    },
+    {
+      "customerName": "Client 2933",
+      "message": "Привет. не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 7828",
+      "message": "какой график работы поддержки? Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 4102",
+      "message": "Ало аууу ..."
+    },
+    {
+      "customerName": "Client 7735",
+      "message": "привет фото не прогружаются Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 6103",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 6644",
+      "message": "курьера нет, телефон недоступен"
+    },
+    {
+      "customerName": "Client 7541",
+      "message": "не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 5348",
+      "message": "вылетает приложение на айфоне жду ответа."
+    },
+    {
+      "customerName": "Client 3075",
+      "message": "как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 5362",
+      "message": "фото не прогружаются Заранее спасибо"
+    },
+    {
+      "customerName": "Client 8399",
+      "message": "Здравствуйте. не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 3850",
+      "message": "добрый вечер обещали доставить до 18:00, уже 20:00 Срочно!"
+    },
+    {
+      "customerName": "Client 8768",
+      "message": "Здравствуйте. как удалить аккаунт полностью? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 9885",
+      "message": "ало не дает привязать новый номер !!!!!"
+    },
+    {
+      "customerName": "Client 2393",
+      "message": "Привезли чужой заказ! Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 9987",
+      "message": "Здравствуйте. верните деньги за подписку, я ей не пользуюсь"
+    },
+    {
+      "customerName": "Client 6093",
+      "message": "Здравствуйте! ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 7050",
+      "message": "кому отправить КП? Срочно!"
+    },
+    {
+      "customerName": "Client 9995",
+      "message": "до скольки работаете?"
+    },
+    {
+      "customerName": "Client 4241",
+      "message": "привет мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 9906",
+      "message": "как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 7985",
+      "message": "Ало хочу стать вашим партнером по логистике Помогите плз"
+    },
+    {
+      "customerName": "Client 2897",
+      "message": "статус заказа не меняется 3 дня ..."
+    },
+    {
+      "customerName": "Client 6262",
+      "message": "Здравствуйте! списали дважды за один и тот же заказ"
+    },
+    {
+      "customerName": "Client 9062",
+      "message": "добрый вечер не могу нажать оплатить надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 5975",
+      "message": "не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 9002",
+      "message": "привет когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 7532",
+      "message": "Привет. Двойное списание с карты"
+    },
+    {
+      "customerName": "Client 9967",
+      "message": "Подписка продлилась сама, я не хотел ..."
+    },
+    {
+      "customerName": "Client 6892",
+      "message": "сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 8278",
+      "message": "Привет. Не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 9472",
+      "message": "привет не дает оплатить картой"
+    },
+    {
+      "customerName": "Client 5619",
+      "message": "Курьер должен был быть вчера, где он? Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 9747",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 2303",
+      "message": "Эй, кому отправить КП?"
+    },
+    {
+      "customerName": "Client 1971",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 9989",
+      "message": "Добрый день, хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 5793",
+      "message": "аууу"
+    },
+    {
+      "customerName": "Client 9734",
+      "message": "добрый вечер выдает какую-то ошибку сервера"
+    },
+    {
+      "customerName": "Client 8499",
+      "message": "аууу"
+    },
+    {
+      "customerName": "Client 3548",
+      "message": "не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 5296",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 6586",
+      "message": "не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 9155",
+      "message": "заказ 85383 как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 9168",
+      "message": "ЗКЗ- 99039 Не пришел чек об оплате на почту Жду ответа."
+    },
+    {
+      "customerName": "Client 4994",
+      "message": "вы тут?"
+    },
+    {
+      "customerName": "Client 9081",
+      "message": "ошибка 500 при оплате надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 9509",
+      "message": "привет. # 35307 курьер разбил товар жду ответа."
+    },
+    {
+      "customerName": "Client 7746",
+      "message": "здравствуйте! где мой чек?"
+    },
+    {
+      "customerName": "Client 2048",
+      "message": "привет. где мой чек?"
+    },
+    {
+      "customerName": "Client 3387",
+      "message": "не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 3299",
+      "message": "не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 6253",
+      "message": "привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 4560",
+      "message": "Ало Подписка продлилась сама, я не хотел"
+    },
+    {
+      "customerName": "Client 3614",
+      "message": "привет отличный сервис Помогите плз"
+    },
+    {
+      "customerName": "Client 4170",
+      "message": "добрый вечер пытаюсь восстановить пароль, тишина"
+    },
+    {
+      "customerName": "Client 3343",
+      "message": "соедините с оператором"
+    },
+    {
+      "customerName": "Client 9334",
+      "message": "Заказ 41982 вместо телефона привезли мыло"
+    },
+    {
+      "customerName": "Client 6607",
+      "message": "ЗКЗ- 35768 курьера нет, телефон недоступен"
+    },
+    {
+      "customerName": "Client 8156",
+      "message": "не работает поиск по сайту Помогите плз"
+    },
+    {
+      "customerName": "Client 4249",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 4904",
+      "message": "соедините с оператором"
+    },
+    {
+      "customerName": "Client 1857",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 8897",
+      "message": "привет. отмените автопродление"
+    },
+    {
+      "customerName": "Client 6725",
+      "message": "Добрый день, спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 7827",
+      "message": "Здравствуйте. не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 2159",
+      "message": "заказ 70575 где мой чек?"
+    },
+    {
+      "customerName": "Client 5646",
+      "message": "ало кому отправить кп?"
+    },
+    {
+      "customerName": "Client 3237",
+      "message": "хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 3598",
+      "message": "Отменил заказ, а деньги не возвращают"
+    },
+    {
+      "customerName": "Client 9562",
+      "message": "курьер разбил товар"
+    },
+    {
+      "customerName": "Client 8856",
+      "message": "соедините с оператором Заранее спасибо"
+    },
+    {
+      "customerName": "Client 5625",
+      "message": "Здравствуйте! удалите мои данные"
+    },
+    {
+      "customerName": "Client 8673",
+      "message": "как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 3887",
+      "message": "привет до скольки работаете?"
+    },
+    {
+      "customerName": "Client 7692",
+      "message": "Добрый день, Не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 1179",
+      "message": "не пришел чек об оплате на почту"
+    },
+    {
+      "customerName": "Client 9105",
+      "message": "не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 4996",
+      "message": "где мой возврат? уже 5 дней прошло помогите плз"
+    },
+    {
+      "customerName": "Client 4320",
+      "message": "ало выдает какую-то ошибку сервера срочно!"
+    },
+    {
+      "customerName": "Client 3776",
+      "message": "оплатил час назад, а чека нет"
+    },
+    {
+      "customerName": "Client 4986",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 4218",
+      "message": "привет посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 3273",
+      "message": "Здравствуйте! списали дважды за один и тот же заказ Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 8047",
+      "message": "ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 6350",
+      "message": "привет. спасибо, вопрос решен ..."
+    },
+    {
+      "customerName": "Client 6814",
+      "message": "Привет. почему списали за подписку без предупреждения?"
+    },
+    {
+      "customerName": "Client 6025",
+      "message": "приложение вылетает когда захожу в корзину"
+    },
+    {
+      "customerName": "Client 8222",
+      "message": "почему сняли два раза деньги??? надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 5233",
+      "message": "до скольки работаете?"
+    },
+    {
+      "customerName": "Client 6196",
+      "message": "Ало возврат висит в статусе обработки Срочно!"
+    },
+    {
+      "customerName": "Client 7861",
+      "message": "здравствуйте! сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 8329",
+      "message": "Ало Курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 8550",
+      "message": "здравствуйте! отмените автопродление"
+    },
+    {
+      "customerName": "Client 9545",
+      "message": "как вам позвонить? Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 5680",
+      "message": "заказ 53127 перепутали посылки"
+    },
+    {
+      "customerName": "Client 3043",
+      "message": "вместо картинок белые квадраты Жду ответа."
+    },
+    {
+      "customerName": "Client 3339",
+      "message": "вы тут?"
+    },
+    {
+      "customerName": "Client 4998",
+      "message": "добрый вечер не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 1873",
+      "message": "вместо телефона привезли мыло жду ответа."
+    },
+    {
+      "customerName": "Client 3141",
+      "message": "Ало # 28128 нужен чек для бухгалтерии, не прислали"
+    },
+    {
+      "customerName": "Client 8972",
+      "message": "заказ 38468 обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 4171",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 1202",
+      "message": "Добрый день, Кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 9759",
+      "message": "как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 9953",
+      "message": "Здравствуйте! просто тест Срочно!"
+    },
+    {
+      "customerName": "Client 2208",
+      "message": "кому отправить кп?"
+    },
+    {
+      "customerName": "Client 6293",
+      "message": "здравствуйте. кнопка оформить заказ серая !!!!!"
+    },
+    {
+      "customerName": "Client 2322",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 3160",
+      "message": "Здравствуйте. перепутали посылки ..."
+    },
+    {
+      "customerName": "Client 4606",
+      "message": "какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 9105",
+      "message": "Кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 1851",
+      "message": "добрый день, забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 4739",
+      "message": "вместо телефона привезли мыло ..."
+    },
+    {
+      "customerName": "Client 2507",
+      "message": "заказ 10057 посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 4657",
+      "message": "эй, спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 8323",
+      "message": "Привет. сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 5036",
+      "message": "Добрый день, не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 2045",
+      "message": "эй, посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 2256",
+      "message": "как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 2925",
+      "message": "до скольки работаете?"
+    },
+    {
+      "customerName": "Client 5140",
+      "message": "добрый вечер Картинки товаров пустые"
+    },
+    {
+      "customerName": "Client 6613",
+      "message": "Добрый день, можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 4365",
+      "message": "добрый вечер не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 3825",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 7737",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 4303",
+      "message": "Добрый день, просто тест"
+    },
+    {
+      "customerName": "Client 2918",
+      "message": "не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 2245",
+      "message": "Здравствуйте. заказ 60163 где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 2093",
+      "message": "привет Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 2026",
+      "message": "оплатил час назад, а чека нет !!!!!"
+    },
+    {
+      "customerName": "Client 6972",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 9288",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 2320",
+      "message": "не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 9792",
+      "message": "Здравствуйте! где едет мой заказ? Срочно!"
+    },
+    {
+      "customerName": "Client 7175",
+      "message": "пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 1513",
+      "message": "Мой заказ 37304 платеж не проходит, пишет отказ банка"
+    },
+    {
+      "customerName": "Client 3635",
+      "message": "добрый вечер сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 3055",
+      "message": "Привет. поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 6180",
+      "message": "удалите мои данные"
+    },
+    {
+      "customerName": "Client 4196",
+      "message": "добрый вечер статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 2308",
+      "message": "Добрый день, Двойное списание с карты"
+    },
+    {
+      "customerName": "Client 4971",
+      "message": "не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 5006",
+      "message": "Картинки товаров пустые !!!!!"
+    },
+    {
+      "customerName": "Client 3056",
+      "message": "Добрый день, спасибо, вопрос решен !!!!!"
+    },
+    {
+      "customerName": "Client 4127",
+      "message": "хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 9087",
+      "message": "Добрый день, смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 9411",
+      "message": "Эй, старый номер утерян, как зайти? Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 2952",
+      "message": "Привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 5532",
+      "message": "привет Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 2136",
+      "message": "ало почему сняли два раза деньги???"
+    },
+    {
+      "customerName": "Client 7603",
+      "message": "Привет. b2b сотрудничество интересует"
+    },
+    {
+      "customerName": "Client 7366",
+      "message": "нужен чек для бухгалтерии, не прислали Заранее спасибо"
+    },
+    {
+      "customerName": "Client 6629",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 9988",
+      "message": "вы тут? помогите плз"
+    },
+    {
+      "customerName": "Client 6280",
+      "message": "добрый вечер пишет что профиль ограничен Помогите плз"
+    },
+    {
+      "customerName": "Client 3066",
+      "message": "Добрый день, вылетает приложение на айфоне Заранее спасибо"
+    },
+    {
+      "customerName": "Client 7358",
+      "message": "списали дважды за один и тот же заказ"
+    },
+    {
+      "customerName": "Client 2355",
+      "message": "добрый день, до скольки работаете?"
+    },
+    {
+      "customerName": "Client 3069",
+      "message": "Эй, не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 9746",
+      "message": "Добрый день, Картинки товаров пустые Заранее спасибо"
+    },
+    {
+      "customerName": "Client 3322",
+      "message": "как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 6502",
+      "message": "фото не прогружаются помогите плз"
+    },
+    {
+      "customerName": "Client 4276",
+      "message": "добрый вечер кому отправить КП? Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 6458",
+      "message": "здравствуйте! не дает привязать новый номер !!!!!"
+    },
+    {
+      "customerName": "Client 4986",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 7088",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 9310",
+      "message": "до скольки работаете?"
+    },
+    {
+      "customerName": "Client 1430",
+      "message": "Привет. выдает ошибку на этапе оплаты"
+    },
+    {
+      "customerName": "Client 3925",
+      "message": "не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 9754",
+      "message": "я ошибся адресом, привезите на другой помогите плз"
+    },
+    {
+      "customerName": "Client 1693",
+      "message": "добрый день, ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 1839",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 5315",
+      "message": "худший сервис эвер"
+    },
+    {
+      "customerName": "Client 1815",
+      "message": "соедините с оператором заранее спасибо"
+    },
+    {
+      "customerName": "Client 4734",
+      "message": "добрый вечер где едет мой заказ? !!!!!"
+    },
+    {
+      "customerName": "Client 5718",
+      "message": "курьер разбил товар"
+    },
+    {
+      "customerName": "Client 4920",
+      "message": "пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 6681",
+      "message": "Эй, ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 3683",
+      "message": "здравствуйте. пишет что профиль ограничен надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 5870",
+      "message": "Мой заказ 98664 поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 2968",
+      "message": "Привет. худший сервис эвер Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 4255",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 9049",
+      "message": "Эй, вы тут? !!!!!"
+    },
+    {
+      "customerName": "Client 6672",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 6478",
+      "message": "Добрый день, ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 6594",
+      "message": "до скольки работаете?"
+    },
+    {
+      "customerName": "Client 4006",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 1253",
+      "message": "Привет. аууу"
+    },
+    {
+      "customerName": "Client 1313",
+      "message": "сайт лежит, 502 bad gateway Срочно!"
+    },
+    {
+      "customerName": "Client 2747",
+      "message": "можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 1990",
+      "message": "Привет. аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 4641",
+      "message": "пытаюсь восстановить пароль, тишина надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 4946",
+      "message": "привет. не приходит письмо на почту для сброса заранее спасибо"
+    },
+    {
+      "customerName": "Client 5587",
+      "message": "когда вернутся деньги на карту? жду ответа."
+    },
+    {
+      "customerName": "Client 8686",
+      "message": "Ало пытаюсь восстановить пароль, тишина"
+    },
+    {
+      "customerName": "Client 3453",
+      "message": "Привет. курьер разбил товар"
+    },
+    {
+      "customerName": "Client 2597",
+      "message": "не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 3462",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 8566",
+      "message": "подписка продлилась сама, я не хотел ..."
+    },
+    {
+      "customerName": "Client 8944",
+      "message": "Картинки товаров пустые"
+    },
+    {
+      "customerName": "Client 2786",
+      "message": "как удалить аккаунт полностью? помогите плз"
+    },
+    {
+      "customerName": "Client 1525",
+      "message": "выдает какую-то ошибку сервера"
+    },
+    {
+      "customerName": "Client 9686",
+      "message": "привет как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 5508",
+      "message": "Эй, фото не прогружаются"
+    },
+    {
+      "customerName": "Client 3187",
+      "message": "как вам позвонить?"
+    },
+    {
+      "customerName": "Client 8711",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 7569",
+      "message": "статус заказа не меняется 3 дня !!!!!"
+    },
+    {
+      "customerName": "Client 9055",
+      "message": "Отменил заказ, а деньги не возвращают Срочно!"
+    },
+    {
+      "customerName": "Client 8440",
+      "message": "кому отправить КП?"
+    },
+    {
+      "customerName": "Client 3786",
+      "message": "привет двойное списание с карты"
+    },
+    {
+      "customerName": "Client 1587",
+      "message": "не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 4683",
+      "message": "Здравствуйте. Как поменять номер телефона в профиле? Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 6166",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 8196",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 9861",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 5330",
+      "message": "вы тут?"
+    },
+    {
+      "customerName": "Client 1344",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 4275",
+      "message": "спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 6249",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 4291",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 2071",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 5721",
+      "message": "Здравствуйте. сайт висит не грузится Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 8098",
+      "message": "привет. возврат висит в статусе обработки"
+    },
+    {
+      "customerName": "Client 2684",
+      "message": "соедините с оператором"
+    },
+    {
+      "customerName": "Client 1060",
+      "message": "Эй, ужасно работаете, буду писать жалобу в роспотребнадзор Заранее спасибо"
+    },
+    {
+      "customerName": "Client 7203",
+      "message": "не пришел чек об оплате на почту"
+    },
+    {
+      "customerName": "Client 2001",
+      "message": "ЗКЗ- 38113 можно перенести доставку на завтра? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 4262",
+      "message": "Забыл пароль, ссылка не приходит Помогите плз"
+    },
+    {
+      "customerName": "Client 6045",
+      "message": "не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 8715",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 8546",
+      "message": "привет Не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 3332",
+      "message": "худший сервис эвер"
+    },
+    {
+      "customerName": "Client 8642",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 8456",
+      "message": "фото не прогружаются"
+    },
+    {
+      "customerName": "Client 1149",
+      "message": "забыл пароль, ссылка не приходит !!!!!"
+    },
+    {
+      "customerName": "Client 7509",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 5459",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 1461",
+      "message": "Привет. сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 1763",
+      "message": "старый номер утерян, как зайти? заранее спасибо"
+    },
+    {
+      "customerName": "Client 2109",
+      "message": "добрый вечер ошибка 404 при переходе в каталог надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 9252",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 8243",
+      "message": "вы тут?"
+    },
+    {
+      "customerName": "Client 4799",
+      "message": "где мой чек? Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 9859",
+      "message": "здравствуйте! хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 4834",
+      "message": "кому отправить КП?"
+    },
+    {
+      "customerName": "Client 1525",
+      "message": "Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 3466",
+      "message": "Ало Кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 7737",
+      "message": "сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 8201",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 8317",
+      "message": "можно перенести доставку на завтра? ..."
+    },
+    {
+      "customerName": "Client 7082",
+      "message": "Эй, Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 6356",
+      "message": "Курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 7790",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 7155",
+      "message": "Эй, вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 7247",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 5841",
+      "message": "заказ 59601 Коробка вся мятая, товар разбит Срочно!"
+    },
+    {
+      "customerName": "Client 2141",
+      "message": "не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 6071",
+      "message": "добрый вечер курьера нет, телефон недоступен"
+    },
+    {
+      "customerName": "Client 2566",
+      "message": "привет. забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 3516",
+      "message": "Ало удалите мои данные"
+    },
+    {
+      "customerName": "Client 5223",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 8489",
+      "message": "Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 4442",
+      "message": "худший сервис эвер !!!!!"
+    },
+    {
+      "customerName": "Client 1433",
+      "message": "здравствуйте. выдает ошибку на этапе оплаты ..."
+    },
+    {
+      "customerName": "Client 7388",
+      "message": "эй, худший сервис эвер"
+    },
+    {
+      "customerName": "Client 1790",
+      "message": "Добрый день, почему сняли два раза деньги??? Помогите плз"
+    },
+    {
+      "customerName": "Client 2171",
+      "message": "Где мой возврат? уже 5 дней прошло"
+    },
+    {
+      "customerName": "Client 3396",
+      "message": "не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 5896",
+      "message": "какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 8082",
+      "message": "Здравствуйте. смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 3566",
+      "message": "ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 5631",
+      "message": "можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 8267",
+      "message": "Коробка вся мятая, товар разбит Помогите плз"
+    },
+    {
+      "customerName": "Client 8837",
+      "message": "ало курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 4750",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 6118",
+      "message": "где мой чек?"
+    },
+    {
+      "customerName": "Client 2125",
+      "message": "Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 4747",
+      "message": "ало выдает ошибку на этапе оплаты"
+    },
+    {
+      "customerName": "Client 9546",
+      "message": "Привет. статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 6292",
+      "message": "Здравствуйте. пишет что профиль ограничен"
+    },
+    {
+      "customerName": "Client 9703",
+      "message": "почему сняли два раза деньги??? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 5815",
+      "message": "не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 9441",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 6788",
+      "message": "как удалить аккаунт полностью? Помогите плз"
+    },
+    {
+      "customerName": "Client 4578",
+      "message": "где мой чек?"
+    },
+    {
+      "customerName": "Client 6213",
+      "message": "Здравствуйте. По заказу 56838 нужен чек для бухгалтерии, не прислали"
+    },
+    {
+      "customerName": "Client 8033",
+      "message": "коробка вся мятая, товар разбит"
+    },
+    {
+      "customerName": "Client 6272",
+      "message": "кому отправить КП? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 4041",
+      "message": "я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 8278",
+      "message": "здравствуйте. привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 2979",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 6429",
+      "message": "я ошибся адресом, привезите на другой ..."
+    },
+    {
+      "customerName": "Client 9755",
+      "message": "пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 9956",
+      "message": "Здравствуйте. заказ 54581 Привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 5199",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 4566",
+      "message": "соедините с оператором ..."
+    },
+    {
+      "customerName": "Client 6667",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 4033",
+      "message": "Добрый день, спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 7202",
+      "message": "привет. где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 5286",
+      "message": "где мой чек?"
+    },
+    {
+      "customerName": "Client 9155",
+      "message": "Здравствуйте! пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 9537",
+      "message": "Эй, не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 8099",
+      "message": "здравствуйте! статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 9107",
+      "message": "добрый вечер до скольки работаете?"
+    },
+    {
+      "customerName": "Client 9739",
+      "message": "худший сервис эвер"
+    },
+    {
+      "customerName": "Client 3668",
+      "message": "пишет что профиль ограничен Помогите плз"
+    },
+    {
+      "customerName": "Client 1041",
+      "message": "Ало ошибка 404 при переходе в каталог Помогите плз"
+    },
+    {
+      "customerName": "Client 7022",
+      "message": "я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 1996",
+      "message": "аууу ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 4070",
+      "message": "Ало поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 9868",
+      "message": "Здравствуйте! почему списали за подписку без предупреждения? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 7760",
+      "message": "Эй, спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 1539",
+      "message": "Здравствуйте. пишет что профиль ограничен ..."
+    },
+    {
+      "customerName": "Client 5795",
+      "message": "Заказ 21921 можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 7436",
+      "message": "соедините с оператором"
+    },
+    {
+      "customerName": "Client 1026",
+      "message": "Ало не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 3539",
+      "message": "Эй, Привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 5849",
+      "message": "Здравствуйте. соедините с оператором"
+    },
+    {
+      "customerName": "Client 4391",
+      "message": "Не приходит смс с кодом Помогите плз"
+    },
+    {
+      "customerName": "Client 4266",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 7579",
+      "message": "отменил заказ, а деньги не возвращают"
+    },
+    {
+      "customerName": "Client 3572",
+      "message": "пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 1113",
+      "message": "Эй, отличный сервис"
+    },
+    {
+      "customerName": "Client 3010",
+      "message": "Курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 4879",
+      "message": "Здравствуйте! перепутали посылки"
+    },
+    {
+      "customerName": "Client 3993",
+      "message": "спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 6924",
+      "message": "Эй, оплатил час назад, а чека нет Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 5081",
+      "message": "вылетает приложение на айфоне"
+    },
+    {
+      "customerName": "Client 1231",
+      "message": "добрый вечер почему списали за подписку без предупреждения? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 3368",
+      "message": "я ошибся адресом, привезите на другой !!!!!"
+    },
+    {
+      "customerName": "Client 2672",
+      "message": "по заказу 59066 курьер должен был быть вчера, где он? надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 2817",
+      "message": "не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 6050",
+      "message": "я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 3418",
+      "message": "привет отличный сервис"
+    },
+    {
+      "customerName": "Client 2181",
+      "message": "Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 6947",
+      "message": "Эй, где мой чек? Срочно!"
+    },
+    {
+      "customerName": "Client 6731",
+      "message": "добрый вечер двойное списание с карты"
+    },
+    {
+      "customerName": "Client 7745",
+      "message": "Заказ 88079 почему сняли два раза деньги???"
+    },
+    {
+      "customerName": "Client 5748",
+      "message": "где мой возврат? уже 5 дней прошло"
+    },
+    {
+      "customerName": "Client 9403",
+      "message": "я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 8610",
+      "message": "Ало Двойное списание с карты"
+    },
+    {
+      "customerName": "Client 7131",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор заранее спасибо"
+    },
+    {
+      "customerName": "Client 2064",
+      "message": "Ало просто тест"
+    },
+    {
+      "customerName": "Client 4887",
+      "message": "я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 1793",
+      "message": "привет посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 1880",
+      "message": "какой график работы поддержки? Помогите плз"
+    },
+    {
+      "customerName": "Client 9439",
+      "message": "Не пришел чек об оплате на почту"
+    },
+    {
+      "customerName": "Client 2637",
+      "message": "статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 4214",
+      "message": "приложение вылетает когда захожу в корзину"
+    },
+    {
+      "customerName": "Client 4046",
+      "message": "не приходит смс с кодом ..."
+    },
+    {
+      "customerName": "Client 2842",
+      "message": "как вам позвонить? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 5730",
+      "message": "Привет. списали дважды за один и тот же заказ Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 4795",
+      "message": "Не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 9795",
+      "message": "Здравствуйте! просто тест"
+    },
+    {
+      "customerName": "Client 5229",
+      "message": "Привет. Не пришел чек об оплате на почту"
+    },
+    {
+      "customerName": "Client 2034",
+      "message": "добрый вечер выдает какую-то ошибку сервера Помогите плз"
+    },
+    {
+      "customerName": "Client 2213",
+      "message": "не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 2014",
+      "message": "Забыл пароль, ссылка не приходит Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 7328",
+      "message": "добрый день, пытаюсь восстановить пароль, тишина"
+    },
+    {
+      "customerName": "Client 6214",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор срочно!"
+    },
+    {
+      "customerName": "Client 4020",
+      "message": "Ало почему сняли два раза деньги???"
+    },
+    {
+      "customerName": "Client 9327",
+      "message": "спасибо, вопрос решен Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 6078",
+      "message": "привет. курьера нет, телефон недоступен"
+    },
+    {
+      "customerName": "Client 4792",
+      "message": "добрый вечер пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 1698",
+      "message": "привет как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 9087",
+      "message": "оплатил час назад, а чека нет"
+    },
+    {
+      "customerName": "Client 2121",
+      "message": "Ало Приложение вылетает когда захожу в корзину Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 8475",
+      "message": "добрый день, кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 8999",
+      "message": "не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 2325",
+      "message": "привет. приложение вылетает когда захожу в корзину"
+    },
+    {
+      "customerName": "Client 3276",
+      "message": "привет курьер разбил товар"
+    },
+    {
+      "customerName": "Client 2527",
+      "message": "привет ошибка 404 при переходе в каталог разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 3619",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 1982",
+      "message": "привет код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 9082",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 1684",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 1011",
+      "message": "# 80565 перепутали посылки"
+    },
+    {
+      "customerName": "Client 7989",
+      "message": "поврежденная упаковка, хочу возврат !!!!!"
+    },
+    {
+      "customerName": "Client 7932",
+      "message": "Ало курьер разбил товар Срочно!"
+    },
+    {
+      "customerName": "Client 4391",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 1752",
+      "message": "ошибка 404 при переходе в каталог Срочно!"
+    },
+    {
+      "customerName": "Client 2283",
+      "message": "вместо телефона привезли мыло"
+    },
+    {
+      "customerName": "Client 7148",
+      "message": "как вам позвонить? Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 2919",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 8514",
+      "message": "не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 9129",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 2336",
+      "message": "заказ 42838 как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 5893",
+      "message": "спасибо, вопрос решен Заранее спасибо"
+    },
+    {
+      "customerName": "Client 6348",
+      "message": "Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 6251",
+      "message": "Эй, как вам позвонить? Жду ответа."
+    },
+    {
+      "customerName": "Client 6231",
+      "message": "Картинки товаров пустые"
+    },
+    {
+      "customerName": "Client 7525",
+      "message": "курьера нет, телефон недоступен"
+    },
+    {
+      "customerName": "Client 1294",
+      "message": "Здравствуйте! спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 3046",
+      "message": "Добрый день, мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 3787",
+      "message": "# 16131 как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 1180",
+      "message": "привет b2b сотрудничество интересует Помогите плз"
+    },
+    {
+      "customerName": "Client 3518",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 7983",
+      "message": "Здравствуйте! Мой заказ 36719 списали дважды за один и тот же заказ Срочно!"
+    },
+    {
+      "customerName": "Client 1735",
+      "message": "Здравствуйте. крэшится апп при оформлении"
+    },
+    {
+      "customerName": "Client 7319",
+      "message": "заказ 93275 отменил заказ, а деньги не возвращают"
+    },
+    {
+      "customerName": "Client 3221",
+      "message": "ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 2537",
+      "message": "привет посылка зависла на складе помогите плз"
+    },
+    {
+      "customerName": "Client 2660",
+      "message": "здравствуйте. кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 5181",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 9400",
+      "message": "ало выдает какую-то ошибку сервера"
+    },
+    {
+      "customerName": "Client 8373",
+      "message": "ЗКЗ- 42307 посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 4443",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 2726",
+      "message": "добрый вечер Коробка вся мятая, товар разбит Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 5577",
+      "message": "приложение вылетает когда захожу в корзину заранее спасибо"
+    },
+    {
+      "customerName": "Client 2530",
+      "message": "ало хочу стать вашим партнером по логистике заранее спасибо"
+    },
+    {
+      "customerName": "Client 1215",
+      "message": "Эй, По заказу 43128 статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 4332",
+      "message": "Привет. Где мой возврат? уже 5 дней прошло"
+    },
+    {
+      "customerName": "Client 1201",
+      "message": "кому отправить кп?"
+    },
+    {
+      "customerName": "Client 7713",
+      "message": "крэшится апп при оформлении"
+    },
+    {
+      "customerName": "Client 6608",
+      "message": "здравствуйте! картинки товаров пустые"
+    },
+    {
+      "customerName": "Client 8156",
+      "message": "просто тест срочно!"
+    },
+    {
+      "customerName": "Client 7826",
+      "message": "как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 2443",
+      "message": "вместо картинок белые квадраты Помогите плз"
+    },
+    {
+      "customerName": "Client 4517",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 8023",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 3801",
+      "message": "курьера нет, телефон недоступен Помогите плз"
+    },
+    {
+      "customerName": "Client 5901",
+      "message": "Курьер должен был быть вчера, где он? !!!!!"
+    },
+    {
+      "customerName": "Client 6992",
+      "message": "мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 5020",
+      "message": "Привет. выдает какую-то ошибку сервера"
+    },
+    {
+      "customerName": "Client 8458",
+      "message": "ЗКЗ- 70401 ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 5006",
+      "message": "я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 4409",
+      "message": "добрый вечер оплатил час назад, а чека нет"
+    },
+    {
+      "customerName": "Client 6638",
+      "message": "не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 9166",
+      "message": "привет смска так и не пришла, жду полчаса Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 9757",
+      "message": "ЗКЗ- 32394 Курьер должен был быть вчера, где он? Помогите плз"
+    },
+    {
+      "customerName": "Client 5857",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 6164",
+      "message": "не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 4504",
+      "message": "не дает оплатить картой"
+    },
+    {
+      "customerName": "Client 6762",
+      "message": "удалите мои данные ..."
+    },
+    {
+      "customerName": "Client 9926",
+      "message": "Ало Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 4158",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 7749",
+      "message": "отмените автопродление"
+    },
+    {
+      "customerName": "Client 6916",
+      "message": "не дает оплатить картой"
+    },
+    {
+      "customerName": "Client 9449",
+      "message": "пытаюсь восстановить пароль, тишина"
+    },
+    {
+      "customerName": "Client 2645",
+      "message": "ало худший сервис эвер"
+    },
+    {
+      "customerName": "Client 2399",
+      "message": "привет. заказ 44586 вместо телефона привезли мыло"
+    },
+    {
+      "customerName": "Client 3533",
+      "message": "привет код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 9481",
+      "message": "как поменять адрес доставки? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 5242",
+      "message": "Эй, не могу зайти на сайт, грузит бесконечно"
+    },
+    {
+      "customerName": "Client 1961",
+      "message": "заказ 25468 как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 6183",
+      "message": "выдает какую-то ошибку сервера"
+    },
+    {
+      "customerName": "Client 2186",
+      "message": "Заказ 82958 Подписка продлилась сама, я не хотел"
+    },
+    {
+      "customerName": "Client 3470",
+      "message": "Забыл пароль, ссылка не приходит ..."
+    },
+    {
+      "customerName": "Client 6670",
+      "message": "Добрый день, выдает какую-то ошибку сервера"
+    },
+    {
+      "customerName": "Client 5335",
+      "message": "отмените автопродление ..."
+    },
+    {
+      "customerName": "Client 1699",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 6210",
+      "message": "добрый вечер посылка зависла на складе разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 9871",
+      "message": "Забыл пароль, ссылка не приходит Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 1172",
+      "message": "привет. статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 2650",
+      "message": "до скольки работаете? Срочно!"
+    },
+    {
+      "customerName": "Client 7399",
+      "message": "пишет 'что-то пошло не так' !!!!!"
+    },
+    {
+      "customerName": "Client 7078",
+      "message": "По заказу 21585 как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 7662",
+      "message": "крэшится апп при оформлении Срочно!"
+    },
+    {
+      "customerName": "Client 9648",
+      "message": "добрый вечер худший сервис эвер"
+    },
+    {
+      "customerName": "Client 8087",
+      "message": "добрый день, где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 3598",
+      "message": "Здравствуйте! поврежденная упаковка, хочу возврат Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 8302",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 7145",
+      "message": "коробка вся мятая, товар разбит"
+    },
+    {
+      "customerName": "Client 6244",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 5303",
+      "message": "Здравствуйте. хочу стать вашим партнером по логистике Жду ответа."
+    },
+    {
+      "customerName": "Client 4044",
+      "message": "вылетает приложение на айфоне"
+    },
+    {
+      "customerName": "Client 2124",
+      "message": "добрый вечер пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 5960",
+      "message": "Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 7500",
+      "message": "Эй, Отменил заказ, а деньги не возвращают Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 9562",
+      "message": "я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 6933",
+      "message": "почему списали за подписку без предупреждения? Заранее спасибо"
+    },
+    {
+      "customerName": "Client 3619",
+      "message": "не дает оплатить картой"
+    },
+    {
+      "customerName": "Client 1086",
+      "message": "крэшится апп при оформлении"
+    },
+    {
+      "customerName": "Client 6678",
+      "message": "ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 4522",
+      "message": "Курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 1363",
+      "message": "Мой заказ 62025 можно перенести доставку на завтра? ..."
+    },
+    {
+      "customerName": "Client 2147",
+      "message": "Привезли чужой заказ! Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 9998",
+      "message": "# 70264 привезли чужой заказ! срочно!"
+    },
+    {
+      "customerName": "Client 8894",
+      "message": "добрый вечер пишет что профиль ограничен Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 4746",
+      "message": "Здравствуйте. Привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 6640",
+      "message": "вылетает приложение на айфоне !!!!!"
+    },
+    {
+      "customerName": "Client 1587",
+      "message": "Эй, можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 8169",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 3841",
+      "message": "добрый вечер удалите мои данные !!!!!"
+    },
+    {
+      "customerName": "Client 6076",
+      "message": "Ало курьера нет, телефон недоступен"
+    },
+    {
+      "customerName": "Client 4957",
+      "message": "привет Не пришел чек об оплате на почту"
+    },
+    {
+      "customerName": "Client 4040",
+      "message": "мой аккаунт заблокали, почему? надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 8556",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 3899",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 9960",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 8882",
+      "message": "хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 3890",
+      "message": "Не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 4833",
+      "message": "почему списали за подписку без предупреждения?"
+    },
+    {
+      "customerName": "Client 8836",
+      "message": "заказ 69224 почему сняли два раза деньги??? Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 9599",
+      "message": "Двойное списание с карты Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 8116",
+      "message": "статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 2703",
+      "message": "статус заказа не меняется 3 дня Заранее спасибо"
+    },
+    {
+      "customerName": "Client 3253",
+      "message": "ало смска так и не пришла, жду полчаса жду ответа."
+    },
+    {
+      "customerName": "Client 6547",
+      "message": "можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 1522",
+      "message": "Здравствуйте! пишет что профиль ограничен"
+    },
+    {
+      "customerName": "Client 7402",
+      "message": "вместо телефона привезли мыло"
+    },
+    {
+      "customerName": "Client 6290",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 7922",
+      "message": "эй, аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 7969",
+      "message": "спасибо, вопрос решен ..."
+    },
+    {
+      "customerName": "Client 1415",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 4270",
+      "message": "ало как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 1510",
+      "message": "удалите мои данные разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 7634",
+      "message": "привет возврат висит в статусе обработки"
+    },
+    {
+      "customerName": "Client 1031",
+      "message": "Эй, не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 3430",
+      "message": "как поменять номер телефона в профиле? заранее спасибо"
+    },
+    {
+      "customerName": "Client 3469",
+      "message": "удалите мои данные"
+    },
+    {
+      "customerName": "Client 7988",
+      "message": "выдает ошибку на этапе оплаты Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 6878",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 4283",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 8184",
+      "message": "где мой возврат? уже 5 дней прошло помогите плз"
+    },
+    {
+      "customerName": "Client 1988",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 5220",
+      "message": "вместо телефона привезли мыло"
+    },
+    {
+      "customerName": "Client 2119",
+      "message": "Привет. Списали деньги 2 раза, верните!"
+    },
+    {
+      "customerName": "Client 4155",
+      "message": "какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 2357",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 9002",
+      "message": "Привет. пишет 'что-то пошло не так' Срочно!"
+    },
+    {
+      "customerName": "Client 2472",
+      "message": "не дает привязать новый номер !!!!!"
+    },
+    {
+      "customerName": "Client 7917",
+      "message": "Добрый день, старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 8543",
+      "message": "сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 2802",
+      "message": "двойное списание с карты"
+    },
+    {
+      "customerName": "Client 3297",
+      "message": "верните деньги за подписку, я ей не пользуюсь"
+    },
+    {
+      "customerName": "Client 7808",
+      "message": "отмените автопродление ..."
+    },
+    {
+      "customerName": "Client 2820",
+      "message": "верните деньги за подписку, я ей не пользуюсь"
+    },
+    {
+      "customerName": "Client 6780",
+      "message": "списали деньги 2 раза, верните!"
+    },
+    {
+      "customerName": "Client 9145",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 6346",
+      "message": "привет не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 1217",
+      "message": "Здравствуйте! По заказу 52236 вместо телефона привезли мыло Жду ответа."
+    },
+    {
+      "customerName": "Client 8772",
+      "message": "кому отправить КП?"
+    },
+    {
+      "customerName": "Client 8422",
+      "message": "можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 7898",
+      "message": "выдает ошибку на этапе оплаты"
+    },
+    {
+      "customerName": "Client 1635",
+      "message": "добрый вечер Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 1687",
+      "message": "Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 4249",
+      "message": "Добрый день, мой аккаунт заблокали, почему? Жду ответа."
+    },
+    {
+      "customerName": "Client 3338",
+      "message": "верните деньги за подписку, я ей не пользуюсь"
+    },
+    {
+      "customerName": "Client 6719",
+      "message": "Заказ 28110 ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 6509",
+      "message": "Здравствуйте! худший сервис эвер"
+    },
+    {
+      "customerName": "Client 9106",
+      "message": "соедините с оператором"
+    },
+    {
+      "customerName": "Client 9225",
+      "message": "поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 3939",
+      "message": "старый номер утерян, как зайти? помогите плз"
+    },
+    {
+      "customerName": "Client 3052",
+      "message": "здравствуйте! поврежденная упаковка, хочу возврат разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 6073",
+      "message": "Эй, отличный сервис ..."
+    },
+    {
+      "customerName": "Client 2899",
+      "message": "мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 6951",
+      "message": "Привет. как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 2334",
+      "message": "не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 7310",
+      "message": "Ало ЗКЗ- 44486 Привезли чужой заказ!"
+    },
+    {
+      "customerName": "Client 8390",
+      "message": "# 62570 когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 2484",
+      "message": "вы тут? Срочно!"
+    },
+    {
+      "customerName": "Client 1677",
+      "message": "поврежденная упаковка, хочу возврат Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 5680",
+      "message": "заказ 11590 как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 2750",
+      "message": "здравствуйте. выдает ошибку на этапе оплаты ..."
+    },
+    {
+      "customerName": "Client 6035",
+      "message": "ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 9726",
+      "message": "где мой чек?"
+    },
+    {
+      "customerName": "Client 7796",
+      "message": "смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 2701",
+      "message": "ало ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 5844",
+      "message": "добрый вечер кому отправить кп? !!!!!"
+    },
+    {
+      "customerName": "Client 5412",
+      "message": "подписка продлилась сама, я не хотел срочно!"
+    },
+    {
+      "customerName": "Client 3440",
+      "message": "добрый вечер сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 7080",
+      "message": "добрый вечер пишет что профиль ограничен"
+    },
+    {
+      "customerName": "Client 9537",
+      "message": "Привет. статус заказа не меняется 3 дня Срочно!"
+    },
+    {
+      "customerName": "Client 6409",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 7500",
+      "message": "Здравствуйте! аууу"
+    },
+    {
+      "customerName": "Client 6073",
+      "message": "добрый вечер не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 1130",
+      "message": "кому отправить КП?"
+    },
+    {
+      "customerName": "Client 6769",
+      "message": "худший сервис эвер"
+    },
+    {
+      "customerName": "Client 7790",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 3492",
+      "message": "Добрый день, спасибо, вопрос решен Заранее спасибо"
+    },
+    {
+      "customerName": "Client 7167",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 4669",
+      "message": "ЗКЗ- 83417 поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 5995",
+      "message": "Коробка вся мятая, товар разбит"
+    },
+    {
+      "customerName": "Client 9212",
+      "message": "здравствуйте. списали деньги 2 раза, верните!"
+    },
+    {
+      "customerName": "Client 8753",
+      "message": "Добрый день, не приходит письмо на почту для сброса Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 2982",
+      "message": "выдает какую-то ошибку сервера срочно!"
+    },
+    {
+      "customerName": "Client 2614",
+      "message": "Здравствуйте! отличный сервис Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 7702",
+      "message": "Добрый день, хочу стать вашим партнером по логистике ..."
+    },
+    {
+      "customerName": "Client 4258",
+      "message": "не дает оплатить картой"
+    },
+    {
+      "customerName": "Client 9768",
+      "message": "Здравствуйте! приехало разбитым"
+    },
+    {
+      "customerName": "Client 2330",
+      "message": "Двойное списание с карты Срочно!"
+    },
+    {
+      "customerName": "Client 5436",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 4701",
+      "message": "ЗКЗ- 28678 почему списали за подписку без предупреждения? Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 3941",
+      "message": "Здравствуйте. код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 4850",
+      "message": "Добрый день, Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 2560",
+      "message": "привет заказ 63715 обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 9115",
+      "message": "Здравствуйте. ошибка 404 при переходе в каталог ..."
+    },
+    {
+      "customerName": "Client 1301",
+      "message": "аккаунт заблокирован, разбаньте помогите плз"
+    },
+    {
+      "customerName": "Client 1160",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 8717",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 9507",
+      "message": "не пришел чек об оплате на почту"
+    },
+    {
+      "customerName": "Client 3126",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 2080",
+      "message": "поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 6881",
+      "message": "добрый день, не приходит смс с кодом разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 4361",
+      "message": "Добрый день, спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 1959",
+      "message": "нужен чек для бухгалтерии, не прислали !!!!!"
+    },
+    {
+      "customerName": "Client 3172",
+      "message": "вместо телефона привезли мыло"
+    },
+    {
+      "customerName": "Client 5193",
+      "message": "Добрый день, не могу зайти на сайт, грузит бесконечно Помогите плз"
+    },
+    {
+      "customerName": "Client 9148",
+      "message": "ЗКЗ- 65237 Двойное списание с карты ..."
+    },
+    {
+      "customerName": "Client 3932",
+      "message": "не дает привязать новый номер"
+    },
+    {
+      "customerName": "Client 1295",
+      "message": "ошибка 404 при переходе в каталог заранее спасибо"
+    },
+    {
+      "customerName": "Client 2963",
+      "message": "платеж не проходит, пишет отказ банка"
+    },
+    {
+      "customerName": "Client 1995",
+      "message": "удалите мои данные"
+    },
+    {
+      "customerName": "Client 2213",
+      "message": "Привет. удалите мои данные"
+    },
+    {
+      "customerName": "Client 3126",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 3251",
+      "message": "Здравствуйте. не дает привязать новый номер Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 2220",
+      "message": "эй, не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 4588",
+      "message": "Здравствуйте. как вам позвонить?"
+    },
+    {
+      "customerName": "Client 8833",
+      "message": "Добрый день, Кнопка оформить заказ серая"
+    },
+    {
+      "customerName": "Client 2918",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 2221",
+      "message": "эй, кому отправить кп? ..."
+    },
+    {
+      "customerName": "Client 2192",
+      "message": "аккаунт заблокирован, разбаньте Заранее спасибо"
+    },
+    {
+      "customerName": "Client 5337",
+      "message": "добрый день, не пришел чек об оплате на почту"
+    },
+    {
+      "customerName": "Client 9180",
+      "message": "не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 9285",
+      "message": "Эй, отмените автопродление"
+    },
+    {
+      "customerName": "Client 6542",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 7349",
+      "message": "просто тест"
+    },
+    {
+      "customerName": "Client 7855",
+      "message": "привет старый номер утерян, как зайти? ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 7925",
+      "message": "не дает привязать новый номер Помогите плз"
+    },
+    {
+      "customerName": "Client 5176",
+      "message": "Добрый день, я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 7125",
+      "message": "просто тест !!!!!"
+    },
+    {
+      "customerName": "Client 1748",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 7902",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 5789",
+      "message": "Эй, сайт лежит, 502 bad gateway"
+    },
+    {
+      "customerName": "Client 3690",
+      "message": "не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 7828",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 7923",
+      "message": "не приходит письмо на почту для сброса !!!!!"
+    },
+    {
+      "customerName": "Client 4774",
+      "message": "Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 6017",
+      "message": "Здравствуйте! поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 5182",
+      "message": "когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 9434",
+      "message": "худший сервис эвер"
+    },
+    {
+      "customerName": "Client 6568",
+      "message": "вместо картинок белые квадраты срочно!"
+    },
+    {
+      "customerName": "Client 1325",
+      "message": "эй, не могу нажать оплатить"
+    },
+    {
+      "customerName": "Client 5434",
+      "message": "Эй, где мой чек? Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 1870",
+      "message": "статус заказа не меняется 3 дня Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 4678",
+      "message": "добрый день, как вам позвонить?"
+    },
+    {
+      "customerName": "Client 7639",
+      "message": "Здравствуйте. пишет 'что-то пошло не так' ..."
+    },
+    {
+      "customerName": "Client 8125",
+      "message": "кому отправить КП?"
+    },
+    {
+      "customerName": "Client 1741",
+      "message": "здравствуйте! хочу стать вашим партнером по логистике ..."
+    },
+    {
+      "customerName": "Client 9590",
+      "message": "Эй, удалите мои данные"
+    },
+    {
+      "customerName": "Client 4481",
+      "message": "b2b сотрудничество интересует"
+    },
+    {
+      "customerName": "Client 9260",
+      "message": "списали дважды за один и тот же заказ"
+    },
+    {
+      "customerName": "Client 2704",
+      "message": "добрый вечер удалите мои данные Жду ответа."
+    },
+    {
+      "customerName": "Client 2169",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 6086",
+      "message": "Ало Приложение вылетает когда захожу в корзину ..."
+    },
+    {
+      "customerName": "Client 2355",
+      "message": "Где мой возврат? уже 5 дней прошло"
+    },
+    {
+      "customerName": "Client 8033",
+      "message": "Курьер должен был быть вчера, где он? Жду ответа."
+    },
+    {
+      "customerName": "Client 8119",
+      "message": "привет. статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 4659",
+      "message": "статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 3785",
+      "message": "Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 8078",
+      "message": "можно перенести доставку на завтра?"
+    },
+    {
+      "customerName": "Client 3272",
+      "message": "Эй, нужен чек для бухгалтерии, не прислали Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 6855",
+      "message": "Добрый день, вылетает приложение на айфоне Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 5174",
+      "message": "Эй, Мой заказ 22794 Где мой возврат? уже 5 дней прошло Заранее спасибо"
+    },
+    {
+      "customerName": "Client 1021",
+      "message": "не могу зайти на сайт, грузит бесконечно Помогите плз"
+    },
+    {
+      "customerName": "Client 2822",
+      "message": "добрый вечер оплатил час назад, а чека нет"
+    },
+    {
+      "customerName": "Client 2694",
+      "message": "почему сняли два раза деньги???"
+    },
+    {
+      "customerName": "Client 1375",
+      "message": "почему сняли два раза деньги???"
+    },
+    {
+      "customerName": "Client 8765",
+      "message": "Здравствуйте! удалите мои данные Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 1513",
+      "message": "Мой заказ 76643 Отменил заказ, а деньги не возвращают"
+    },
+    {
+      "customerName": "Client 8844",
+      "message": "не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 3297",
+      "message": "не нажимается кнопка далее срочно!"
+    },
+    {
+      "customerName": "Client 6286",
+      "message": "добрый вечер перепутали посылки"
+    },
+    {
+      "customerName": "Client 9987",
+      "message": "привет как поменять номер телефона в профиле? ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 7099",
+      "message": "Отменил заказ, а деньги не возвращают Срочно!"
+    },
+    {
+      "customerName": "Client 1945",
+      "message": "не дает оплатить картой"
+    },
+    {
+      "customerName": "Client 1957",
+      "message": "Добрый день, спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 2942",
+      "message": "привет ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 3288",
+      "message": "соедините с оператором"
+    },
+    {
+      "customerName": "Client 2870",
+      "message": "Картинки товаров пустые"
+    },
+    {
+      "customerName": "Client 8436",
+      "message": "добрый вечер когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 3093",
+      "message": "приехало разбитым"
+    },
+    {
+      "customerName": "Client 3544",
+      "message": "Привет. пишет что профиль ограничен Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 8431",
+      "message": "Привет. аккаунт заблокирован, разбаньте ..."
+    },
+    {
+      "customerName": "Client 6747",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 8971",
+      "message": "вылетает приложение на айфоне !!!!!"
+    },
+    {
+      "customerName": "Client 2859",
+      "message": "фото не прогружаются Заранее спасибо"
+    },
+    {
+      "customerName": "Client 3191",
+      "message": "списали дважды за один и тот же заказ"
+    },
+    {
+      "customerName": "Client 7459",
+      "message": "привет Двойное списание с карты"
+    },
+    {
+      "customerName": "Client 3419",
+      "message": "добрый день, пишет что профиль ограничен заранее спасибо"
+    },
+    {
+      "customerName": "Client 9637",
+      "message": "Здравствуйте. # 39309 вместо телефона привезли мыло Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 5228",
+      "message": "ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 8603",
+      "message": "привет курьер разбил товар"
+    },
+    {
+      "customerName": "Client 7670",
+      "message": "привет поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 4653",
+      "message": "Здравствуйте! ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 3853",
+      "message": "выдает ошибку на этапе оплаты"
+    },
+    {
+      "customerName": "Client 8413",
+      "message": "какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 6548",
+      "message": "почему списали за подписку без предупреждения?"
+    },
+    {
+      "customerName": "Client 3311",
+      "message": "платеж не проходит, пишет отказ банка"
+    },
+    {
+      "customerName": "Client 4075",
+      "message": "выдает ошибку на этапе оплаты Помогите плз"
+    },
+    {
+      "customerName": "Client 5258",
+      "message": "хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 2034",
+      "message": "аууу"
+    },
+    {
+      "customerName": "Client 2130",
+      "message": "не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 9508",
+      "message": "Привет. верните деньги за подписку, я ей не пользуюсь"
+    },
+    {
+      "customerName": "Client 2929",
+      "message": "Не приходит смс с кодом"
+    },
+    {
+      "customerName": "Client 4830",
+      "message": "когда вернутся деньги на карту?"
+    },
+    {
+      "customerName": "Client 6551",
+      "message": "добрый вечер код подтверждения не отправляется ..."
+    },
+    {
+      "customerName": "Client 6970",
+      "message": "Здравствуйте. приехало разбитым"
+    },
+    {
+      "customerName": "Client 6701",
+      "message": "Привет. мой аккаунт заблокали, почему? ..."
+    },
+    {
+      "customerName": "Client 3014",
+      "message": "пытаюсь восстановить пароль, тишина"
+    },
+    {
+      "customerName": "Client 6572",
+      "message": "перепутали посылки"
+    },
+    {
+      "customerName": "Client 2358",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 7089",
+      "message": "пытаюсь восстановить пароль, тишина"
+    },
+    {
+      "customerName": "Client 1559",
+      "message": "зкз- 33723 отмените автопродление ..."
+    },
+    {
+      "customerName": "Client 4367",
+      "message": "Добрый день, смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 3257",
+      "message": "пишет 'что-то пошло не так' помогите плз"
+    },
+    {
+      "customerName": "Client 3099",
+      "message": "пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 3410",
+      "message": "Спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 7514",
+      "message": "соедините с оператором Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 1388",
+      "message": "просто тест ..."
+    },
+    {
+      "customerName": "Client 6707",
+      "message": "Здравствуйте. отмените автопродление ..."
+    },
+    {
+      "customerName": "Client 8188",
+      "message": "удалите мои данные"
+    },
+    {
+      "customerName": "Client 9714",
+      "message": "здравствуйте. пытаюсь восстановить пароль, тишина разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 6235",
+      "message": "ошибка 404 при переходе в каталог"
+    },
+    {
+      "customerName": "Client 5234",
+      "message": "фото не прогружаются"
+    },
+    {
+      "customerName": "Client 9704",
+      "message": "Забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 6780",
+      "message": "добрый день, не приходит письмо на почту для сброса"
+    },
+    {
+      "customerName": "Client 4344",
+      "message": "не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 7603",
+      "message": "вы тут?"
+    },
+    {
+      "customerName": "Client 5576",
+      "message": "сайт висит не грузится"
+    },
+    {
+      "customerName": "Client 6619",
+      "message": "Здравствуйте. мой аккаунт заблокали, почему?"
+    },
+    {
+      "customerName": "Client 4045",
+      "message": "оплатил час назад, а чека нет"
+    },
+    {
+      "customerName": "Client 1300",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 2716",
+      "message": "мой аккаунт заблокали, почему? жду ответа."
+    },
+    {
+      "customerName": "Client 3667",
+      "message": "Привет. Забыл пароль, ссылка не приходит !!!!!"
+    },
+    {
+      "customerName": "Client 2430",
+      "message": "Ало смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 6600",
+      "message": "заказ 54189 выдает ошибку на этапе оплаты !!!!!"
+    },
+    {
+      "customerName": "Client 3986",
+      "message": "курьера нет, телефон недоступен"
+    },
+    {
+      "customerName": "Client 9562",
+      "message": "забыл пароль, ссылка не приходит"
+    },
+    {
+      "customerName": "Client 3891",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 4431",
+      "message": "спасибо, вопрос решен"
+    },
+    {
+      "customerName": "Client 7531",
+      "message": "привет я ошибся адресом, привезите на другой"
+    },
+    {
+      "customerName": "Client 5160",
+      "message": "заказ 20983 курьер разбил товар !!!!!"
+    },
+    {
+      "customerName": "Client 6216",
+      "message": "Здравствуйте! статус заказа не меняется 3 дня Срочно!"
+    },
+    {
+      "customerName": "Client 5083",
+      "message": "пишет 'что-то пошло не так'"
+    },
+    {
+      "customerName": "Client 5312",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 7880",
+      "message": "двойное списание с карты разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 4974",
+      "message": "старый номер утерян, как зайти?"
+    },
+    {
+      "customerName": "Client 9658",
+      "message": "заказ 26212 приехало разбитым"
+    },
+    {
+      "customerName": "Client 1167",
+      "message": "Забыл пароль, ссылка не приходит Жду ответа."
+    },
+    {
+      "customerName": "Client 5335",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 2740",
+      "message": "Курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 1919",
+      "message": "не дает привязать новый номер ..."
+    },
+    {
+      "customerName": "Client 5124",
+      "message": "какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 6800",
+      "message": "посылка зависла на складе"
+    },
+    {
+      "customerName": "Client 9349",
+      "message": "Привет. статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 6905",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор"
+    },
+    {
+      "customerName": "Client 8136",
+      "message": "эй, код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 2448",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 3124",
+      "message": "Добрый день, курьера нет, телефон недоступен Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 1771",
+      "message": "Привет. сайт висит не грузится Помогите плз"
+    },
+    {
+      "customerName": "Client 3610",
+      "message": "Привет. какой график работы поддержки?"
+    },
+    {
+      "customerName": "Client 2331",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 5081",
+      "message": "поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 6760",
+      "message": "здравствуйте! просто тест"
+    },
+    {
+      "customerName": "Client 5611",
+      "message": "здравствуйте. курьер должен был быть вчера, где он?"
+    },
+    {
+      "customerName": "Client 5084",
+      "message": "как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 4337",
+      "message": "какой график работы поддержки? ..."
+    },
+    {
+      "customerName": "Client 5452",
+      "message": "отличный сервис Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 7995",
+      "message": "добрый вечер Не пришел чек об оплате на почту Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 9734",
+      "message": "Добрый день, вылетает приложение на айфоне"
+    },
+    {
+      "customerName": "Client 8818",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 4440",
+      "message": "Добрый день, до скольки работаете?"
+    },
+    {
+      "customerName": "Client 2015",
+      "message": "вместо картинок белые квадраты"
+    },
+    {
+      "customerName": "Client 4018",
+      "message": "отличный сервис"
+    },
+    {
+      "customerName": "Client 5904",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 6236",
+      "message": "Здравствуйте! приехало разбитым"
+    },
+    {
+      "customerName": "Client 6002",
+      "message": "здравствуйте. аууу"
+    },
+    {
+      "customerName": "Client 2981",
+      "message": "посылка зависла на складе ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 2515",
+      "message": "как удалить аккаунт полностью? Разберитесь пожалуйста"
+    },
+    {
+      "customerName": "Client 4068",
+      "message": "Ало Где мой возврат? уже 5 дней прошло"
+    },
+    {
+      "customerName": "Client 4764",
+      "message": "не нажимается кнопка далее"
+    },
+    {
+      "customerName": "Client 3656",
+      "message": "b2b сотрудничество интересует Заранее спасибо"
+    },
+    {
+      "customerName": "Client 9697",
+      "message": "как поменять адрес доставки?"
+    },
+    {
+      "customerName": "Client 5027",
+      "message": "вместо картинок белые квадраты Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 6626",
+      "message": "код подтверждения не отправляется ..."
+    },
+    {
+      "customerName": "Client 8732",
+      "message": "спасибо, очень помогли!"
+    },
+    {
+      "customerName": "Client 2016",
+      "message": "аккаунт заблокирован, разбаньте"
+    },
+    {
+      "customerName": "Client 5547",
+      "message": "статус заказа не меняется 3 дня"
+    },
+    {
+      "customerName": "Client 9444",
+      "message": "где мой чек?"
+    },
+    {
+      "customerName": "Client 6162",
+      "message": "как поменять номер телефона в профиле? ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 9275",
+      "message": "хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 7126",
+      "message": "верните деньги за подписку, я ей не пользуюсь"
+    },
+    {
+      "customerName": "Client 1417",
+      "message": "код подтверждения не отправляется"
+    },
+    {
+      "customerName": "Client 2975",
+      "message": "Привет. оплатил час назад, а чека нет Жду ответа."
+    },
+    {
+      "customerName": "Client 9401",
+      "message": "фото не прогружаются"
+    },
+    {
+      "customerName": "Client 6861",
+      "message": "привет вы тут?"
+    },
+    {
+      "customerName": "Client 1832",
+      "message": "Где мой возврат? уже 5 дней прошло"
+    },
+    {
+      "customerName": "Client 7101",
+      "message": "где едет мой заказ? Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 9583",
+      "message": "ужасно работаете, буду писать жалобу в роспотребнадзор Жду ответа."
+    },
+    {
+      "customerName": "Client 7570",
+      "message": "обещали доставить до 18:00, уже 20:00"
+    },
+    {
+      "customerName": "Client 6377",
+      "message": "Эй, ЗКЗ- 83445 Курьер должен был быть вчера, где он? Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 2154",
+      "message": "посылка зависла на складе !!!!!"
+    },
+    {
+      "customerName": "Client 5290",
+      "message": "платеж не проходит, пишет отказ банка Надеюсь на помощь"
+    },
+    {
+      "customerName": "Client 9470",
+      "message": "привет Мой заказ 16649 где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 1980",
+      "message": "ошибка 500 при оплате"
+    },
+    {
+      "customerName": "Client 5943",
+      "message": "Добрый день, Картинки товаров пустые Срочно!"
+    },
+    {
+      "customerName": "Client 5707",
+      "message": "Коробка вся мятая, товар разбит !!!!!"
+    },
+    {
+      "customerName": "Client 2754",
+      "message": "соедините с оператором"
+    },
+    {
+      "customerName": "Client 7908",
+      "message": "добрый день, не работает поиск по сайту"
+    },
+    {
+      "customerName": "Client 2491",
+      "message": "ало возврат висит в статусе обработки"
+    },
+    {
+      "customerName": "Client 6114",
+      "message": "где едет мой заказ?"
+    },
+    {
+      "customerName": "Client 4213",
+      "message": "не могу зайти на сайт, грузит бесконечно !!!!!"
+    },
+    {
+      "customerName": "Client 8580",
+      "message": "Ало как удалить аккаунт полностью?"
+    },
+    {
+      "customerName": "Client 1786",
+      "message": "добрый день, аууу"
+    },
+    {
+      "customerName": "Client 9252",
+      "message": "почему списали за подписку без предупреждения? жду ответа."
+    },
+    {
+      "customerName": "Client 4284",
+      "message": "добрый вечер где мой чек?"
+    },
+    {
+      "customerName": "Client 8266",
+      "message": "Здравствуйте! смска так и не пришла, жду полчаса"
+    },
+    {
+      "customerName": "Client 2698",
+      "message": "поврежденная упаковка, хочу возврат"
+    },
+    {
+      "customerName": "Client 7911",
+      "message": "Кнопка оформить заказ серая Ответьте побыстрее"
+    },
+    {
+      "customerName": "Client 9696",
+      "message": "добрый вечер как вам позвонить?"
+    },
+    {
+      "customerName": "Client 3128",
+      "message": "хочу стать вашим партнером по логистике"
+    },
+    {
+      "customerName": "Client 2196",
+      "message": "Как поменять номер телефона в профиле?"
+    },
+    {
+      "customerName": "Client 7427",
+      "message": "здравствуйте! старый номер утерян, как зайти?"
+    }
+  ]
+}

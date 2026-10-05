@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SmartSupport AI
 
-## Getting Started
+Customer support dashboard integrating Next.js, Typesafe Jev AI, and Telegram.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+SmartSupport AI is a prototype dashboard built to automate incoming support tickets. It uses LLMs to classify requests and draft responses based on a provided Knowledge Base.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Triage**: Uses Typesafe Jev AI to categorize incoming tickets (Billing, Technical, Account, Spam).
+- **Auto-Resolution**: Automatically closes tickets identified as Spam or Offtopic.
+- **Copilot Drafts**: Generates response drafts using Deepseek/Groq referenced against a dynamic FAQ.
+- **Telegram Integration**: Receives client messages directly from a Telegram bot and routes them to the dashboard.
+- **Dashboard UI**: Next.js-based interface for managing tickets.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Frontend**: Next.js 14, React, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **AI Integration**: Typesafe SDK (Jev AI), Deepseek/Groq
+- **Bot**: Telegraf
 
-To learn more about Next.js, take a look at the following resources:
+## Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mukh4w/smartsupport-ai-mvp.git
+   cd ai-support-mvp
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. Install dependencies:
+   ```bash
+   bun install
+   ```
 
-## Deploy on Vercel
+3. Configure environment variables:
+   ```bash
+   cp .env.example .env.local
+   ```
+   Add your `TELEGRAM_BOT_TOKEN`, `TYPESAFE_API_KEY`, and LLM keys.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Run the development server:
+   ```bash
+   bun run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Start the Telegram bot (in a separate terminal):
+   ```bash
+   bun run telegram-bot.ts
+   ```
+
+## Architecture Flow
+
+1. Client sends a message to the Telegram bot.
+2. `telegram-bot.ts` forwards the payload to `/api/tickets`.
+3. The API categorizes the intent and urgency using Jev AI.
+4. The ticket populates in the UI; spam is closed automatically.
+5. For open tickets, the AI Copilot drafts a response utilizing the Knowledge Base.
